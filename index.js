@@ -6,9 +6,9 @@ const puppeteer = require('puppeteer');
     // 是否运行浏览器无头模式(boolean)
     headless: false,
     // 是否自动打开调试工具(boolean)，若此值为true，headless自动置为fasle
-    devtools: true,
+    devtools: false,
     // 设置超时时间(number)，若此值为0，则禁用超时
-    timeout: 20000,
+    timeout: 20000000000,
   });
 
   const page = await browser.newPage();
@@ -65,7 +65,7 @@ const puppeteer = require('puppeteer');
   }));
 
   // 遍历每个城市
-  for (let index = 0; index < list.length; index++) {
+  for (let index = 0; index < 5; index++) {
     const href = list[index].href;
 
     await page.goto(href, { waitUntil: 'networkidle0' });
