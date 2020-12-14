@@ -20,10 +20,10 @@ const puppeteer = require('puppeteer');
   //等待元素加载成功
   await page.waitForSelector('#main > #citylist > a');
 
-  const getPageInfo = async (_href) => {
-    await page.goto(_href, { waitUntil: 'networkidle2' });
+  const getPageInfo = async (_href, index, i) => {
+    await page.goto(_href, { waitUntil: 'networkidle0' });
 
-    const query = '#mainbg > #main > .ih3'
+    const query = '.ih3'
 
     const hasDom = await page.$(query)
 
@@ -31,7 +31,7 @@ const puppeteer = require('puppeteer');
       //等待元素加载成功
       await page.waitForSelector(query);
 
-      const gradeList = await page.$$eval(query, eles => eles.map(ele => {
+      let gradeList = await page.$$eval(query, eles => eles.map(ele => {
         return {
           title: ele.title,
           href: ele.href,
@@ -39,7 +39,13 @@ const puppeteer = require('puppeteer');
         }
       }));
 
-      list[index].district[i].gradeList = gradeList
+      gradeList = gradeList.filter(b => b.text.includes('英语'))
+
+      if (i !== undefined) {
+        list[index].district[i].gradeList = gradeList
+      } else {
+        list[index].gradeList = gradeList
+      }
     } else {
       console.log(_href, hasDom)
     }
@@ -59,8 +65,7 @@ const puppeteer = require('puppeteer');
   }));
 
   // 遍历每个城市
-  // for (let index = 0; index < list.length; index++) {
-  for (let index = 0; index < 1; index++) {
+  for (let index = 0; index < list.length; index++) {
     const href = list[index].href;
 
     await page.goto(href, { waitUntil: 'networkidle0' });
@@ -84,11 +89,12 @@ const puppeteer = require('puppeteer');
       // 遍历每个地区
       for (let i = 0; i < Districtlist.length; i++) {
         const _href = Districtlist[i].href;
-        await getPageInfo(_href)
+        await getPageInfo(_href, index, i)
       }
     } else {
       // 地区不存在
-      await getPageInfo(href)
+      list[index].error = '该城市没有地区'
+      // await getPageInfo(href)
     }
   }
 
@@ -97,5 +103,5 @@ const puppeteer = require('puppeteer');
   writerStream.write(JSON.stringify(list, undefined, 2), 'UTF8');
   writerStream.end();
 
-  // await browser.close();
+  await browser.close();
 })();
