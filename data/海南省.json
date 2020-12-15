@@ -1,0 +1,156 @@
+[
+  {
+    "province": "海南省",
+    "city": [
+      {
+        "cityName": "白沙黎族自治县",
+        "cityFullName": "海南省白沙黎族自治县/",
+        "districtList": []
+      },
+      {
+        "cityName": "保亭黎族苗族自治县",
+        "cityFullName": "海南省保亭黎族苗族自治县/",
+        "districtList": []
+      },
+      {
+        "cityName": "昌江黎族自治县",
+        "cityFullName": "海南省昌江黎族自治县/",
+        "districtList": []
+      },
+      {
+        "cityName": "澄迈县",
+        "cityFullName": "海南省澄迈县/",
+        "districtList": []
+      },
+      {
+        "cityName": "儋州市",
+        "cityFullName": "海南省儋州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "定安县",
+        "cityFullName": "海南省定安县/",
+        "districtList": []
+      },
+      {
+        "cityName": "东方市",
+        "cityFullName": "海南省东方市/",
+        "districtList": []
+      },
+      {
+        "cityName": "海口市",
+        "cityFullName": "海南省海口市/",
+        "districtList": [
+          {
+            "districtName": "龙华区",
+            "districtFullName": "海南省海口市/龙华区/",
+            "起始年级": "一年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册(新起点)",
+            "备注": "(新起点)"
+          },
+          {
+            "districtName": "美兰区",
+            "districtFullName": "海南省海口市/美兰区/",
+            "起始年级": "三年级",
+            "版本": "外研版",
+            "标题": "外研版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(三年级起点)",
+            "备注": "(三年级起点)"
+          },
+          {
+            "districtName": "琼山区",
+            "districtFullName": "海南省海口市/琼山区/",
+            "起始年级": "三年级",
+            "版本": "外研版",
+            "标题": "外研版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(三年级起点)",
+            "备注": "(三年级起点)"
+          },
+          {
+            "districtName": "秀英区",
+            "districtFullName": "海南省海口市/秀英区/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          }
+        ]
+      },
+      {
+        "cityName": "乐东黎族自治县",
+        "cityFullName": "海南省乐东黎族自治县/",
+        "districtList": []
+      },
+      {
+        "cityName": "临高县",
+        "cityFullName": "海南省临高县/",
+        "districtList": []
+      },
+      {
+        "cityName": "陵水黎族自治县",
+        "cityFullName": "海南省陵水黎族自治县/",
+        "districtList": []
+      },
+      {
+        "cityName": "琼海市",
+        "cityFullName": "海南省琼海市/",
+        "districtList": []
+      },
+      {
+        "cityName": "琼中黎族苗族自治县",
+        "cityFullName": "海南省琼中黎族苗族自治县/",
+        "districtList": []
+      },
+      {
+        "cityName": "三亚市",
+        "cityFullName": "海南省三亚市/",
+        "districtList": [
+          {
+            "districtName": "吉阳区",
+            "districtFullName": "海南省三亚市/吉阳区/",
+            "起始年级": "三年级",
+            "版本": "教科版",
+            "标题": "教科版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(广州版)",
+            "备注": "(广州版)"
+          },
+          {
+            "districtName": "天涯区",
+            "districtFullName": "海南省三亚市/天涯区/",
+            "起始年级": "七年级",
+            "版本": "外研版",
+            "标题": "外研版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "崖州区",
+            "districtFullName": "海南省三亚市/崖州区/"
+          }
+        ]
+      },
+      {
+        "cityName": "屯昌县",
+        "cityFullName": "海南省屯昌县/",
+        "districtList": []
+      },
+      {
+        "cityName": "万宁市",
+        "cityFullName": "海南省万宁市/",
+        "districtList": []
+      },
+      {
+        "cityName": "文昌市",
+        "cityFullName": "海南省文昌市/",
+        "districtList": []
+      },
+      {
+        "cityName": "五指山市",
+        "cityFullName": "海南省五指山市/",
+        "districtList": []
+      }
+    ]
+  }
+]

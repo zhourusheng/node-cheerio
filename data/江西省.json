@@ -1,0 +1,692 @@
+[
+  {
+    "province": "江西省",
+    "city": [
+      {
+        "cityName": "抚州市",
+        "cityFullName": "江西省抚州市/",
+        "districtList": [
+          {
+            "districtName": "崇仁县",
+            "districtFullName": "江西省抚州市/崇仁县/"
+          },
+          {
+            "districtName": "东乡县",
+            "districtFullName": "江西省抚州市/东乡县/"
+          },
+          {
+            "districtName": "广昌县",
+            "districtFullName": "江西省抚州市/广昌县/"
+          },
+          {
+            "districtName": "金溪县",
+            "districtFullName": "江西省抚州市/金溪县/"
+          },
+          {
+            "districtName": "乐安县",
+            "districtFullName": "江西省抚州市/乐安县/"
+          },
+          {
+            "districtName": "黎川县",
+            "districtFullName": "江西省抚州市/黎川县/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "临川区",
+            "districtFullName": "江西省抚州市/临川区/",
+            "起始年级": "三年级",
+            "版本": "科普版",
+            "标题": "科普版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "南城县",
+            "districtFullName": "江西省抚州市/南城县/"
+          },
+          {
+            "districtName": "南丰县",
+            "districtFullName": "江西省抚州市/南丰县/"
+          },
+          {
+            "districtName": "宜黄县",
+            "districtFullName": "江西省抚州市/宜黄县/"
+          },
+          {
+            "districtName": "资溪县",
+            "districtFullName": "江西省抚州市/资溪县/"
+          }
+        ]
+      },
+      {
+        "cityName": "赣州市",
+        "cityFullName": "江西省赣州市/",
+        "districtList": [
+          {
+            "districtName": "安远县",
+            "districtFullName": "江西省赣州市/安远县/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "大余县",
+            "districtFullName": "江西省赣州市/大余县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "定南县",
+            "districtFullName": "江西省赣州市/定南县/"
+          },
+          {
+            "districtName": "赣县",
+            "districtFullName": "江西省赣州市/赣县/"
+          },
+          {
+            "districtName": "会昌县",
+            "districtFullName": "江西省赣州市/会昌县/",
+            "起始年级": "一年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册(新起点)",
+            "备注": "(新起点)"
+          },
+          {
+            "districtName": "龙南县",
+            "districtFullName": "江西省赣州市/龙南县/",
+            "起始年级": "三年级",
+            "版本": "鲁科版",
+            "标题": "鲁科版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "南康区",
+            "districtFullName": "江西省赣州市/南康区/",
+            "起始年级": "一年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册(新起点)",
+            "备注": "(新起点)"
+          },
+          {
+            "districtName": "宁都县",
+            "districtFullName": "江西省赣州市/宁都县/",
+            "起始年级": "一年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册(新起点)",
+            "备注": "(新起点)"
+          },
+          {
+            "districtName": "全南县",
+            "districtFullName": "江西省赣州市/全南县/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "瑞金市",
+            "districtFullName": "江西省赣州市/瑞金市/"
+          },
+          {
+            "districtName": "上犹县",
+            "districtFullName": "江西省赣州市/上犹县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "石城县",
+            "districtFullName": "江西省赣州市/石城县/"
+          },
+          {
+            "districtName": "信丰县",
+            "districtFullName": "江西省赣州市/信丰县/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "兴国县",
+            "districtFullName": "江西省赣州市/兴国县/"
+          },
+          {
+            "districtName": "寻乌县",
+            "districtFullName": "江西省赣州市/寻乌县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "于都县",
+            "districtFullName": "江西省赣州市/于都县/",
+            "起始年级": "三年级",
+            "版本": "教科版",
+            "标题": "教科版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(广州版)",
+            "备注": "(广州版)"
+          },
+          {
+            "districtName": "章贡区",
+            "districtFullName": "江西省赣州市/章贡区/",
+            "起始年级": "一年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册(新起点)",
+            "备注": "(新起点)"
+          }
+        ]
+      },
+      {
+        "cityName": "吉安市",
+        "cityFullName": "江西省吉安市/",
+        "districtList": [
+          {
+            "districtName": "安福县",
+            "districtFullName": "江西省吉安市/安福县/"
+          },
+          {
+            "districtName": "吉安县",
+            "districtFullName": "江西省吉安市/吉安县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(精通)",
+            "备注": "(精通)"
+          },
+          {
+            "districtName": "吉水县",
+            "districtFullName": "江西省吉安市/吉水县/"
+          },
+          {
+            "districtName": "吉州区",
+            "districtFullName": "江西省吉安市/吉州区/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "井冈山市",
+            "districtFullName": "江西省吉安市/井冈山市/"
+          },
+          {
+            "districtName": "青原区",
+            "districtFullName": "江西省吉安市/青原区/"
+          },
+          {
+            "districtName": "遂川县",
+            "districtFullName": "江西省吉安市/遂川县/"
+          },
+          {
+            "districtName": "泰和县",
+            "districtFullName": "江西省吉安市/泰和县/",
+            "起始年级": "一年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册(新起点)",
+            "备注": "(新起点)"
+          },
+          {
+            "districtName": "万安县",
+            "districtFullName": "江西省吉安市/万安县/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "峡江县",
+            "districtFullName": "江西省吉安市/峡江县/"
+          },
+          {
+            "districtName": "新干县",
+            "districtFullName": "江西省吉安市/新干县/",
+            "起始年级": "一年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册(新起点)",
+            "备注": "(新起点)"
+          },
+          {
+            "districtName": "永丰县",
+            "districtFullName": "江西省吉安市/永丰县/"
+          },
+          {
+            "districtName": "永新县",
+            "districtFullName": "江西省吉安市/永新县/"
+          }
+        ]
+      },
+      {
+        "cityName": "景德镇市",
+        "cityFullName": "江西省景德镇市/",
+        "districtList": [
+          {
+            "districtName": "昌江区",
+            "districtFullName": "江西省景德镇市/昌江区/",
+            "起始年级": "三年级",
+            "版本": "外研版",
+            "标题": "外研版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(三年级起点)",
+            "备注": "(三年级起点)"
+          },
+          {
+            "districtName": "浮梁县",
+            "districtFullName": "江西省景德镇市/浮梁县/",
+            "起始年级": "三年级",
+            "版本": "外研版",
+            "标题": "外研版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(三年级起点)",
+            "备注": "(三年级起点)"
+          },
+          {
+            "districtName": "乐平市",
+            "districtFullName": "江西省景德镇市/乐平市/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "珠山区",
+            "districtFullName": "江西省景德镇市/珠山区/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          }
+        ]
+      },
+      {
+        "cityName": "九江市",
+        "cityFullName": "江西省九江市/",
+        "districtList": [
+          {
+            "districtName": "德安县",
+            "districtFullName": "江西省九江市/德安县/"
+          },
+          {
+            "districtName": "都昌县",
+            "districtFullName": "江西省九江市/都昌县/"
+          },
+          {
+            "districtName": "共青城市",
+            "districtFullName": "江西省九江市/共青城市/"
+          },
+          {
+            "districtName": "湖口县",
+            "districtFullName": "江西省九江市/湖口县/"
+          },
+          {
+            "districtName": "九江县",
+            "districtFullName": "江西省九江市/九江县/"
+          },
+          {
+            "districtName": "庐山区",
+            "districtFullName": "江西省九江市/庐山区/"
+          },
+          {
+            "districtName": "彭泽县",
+            "districtFullName": "江西省九江市/彭泽县/"
+          },
+          {
+            "districtName": "瑞昌市",
+            "districtFullName": "江西省九江市/瑞昌市/"
+          },
+          {
+            "districtName": "武宁县",
+            "districtFullName": "江西省九江市/武宁县/"
+          },
+          {
+            "districtName": "星子县",
+            "districtFullName": "江西省九江市/星子县/"
+          },
+          {
+            "districtName": "修水县",
+            "districtFullName": "江西省九江市/修水县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "浔阳区",
+            "districtFullName": "江西省九江市/浔阳区/"
+          },
+          {
+            "districtName": "永修县",
+            "districtFullName": "江西省九江市/永修县/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          }
+        ]
+      },
+      {
+        "cityName": "南昌市",
+        "cityFullName": "江西省南昌市/",
+        "districtList": [
+          {
+            "districtName": "安义县",
+            "districtFullName": "江西省南昌市/安义县/"
+          },
+          {
+            "districtName": "东湖区",
+            "districtFullName": "江西省南昌市/东湖区/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "进贤县",
+            "districtFullName": "江西省南昌市/进贤县/"
+          },
+          {
+            "districtName": "南昌县",
+            "districtFullName": "江西省南昌市/南昌县/",
+            "起始年级": "一年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册(新起点)",
+            "备注": "(新起点)"
+          },
+          {
+            "districtName": "青山湖区",
+            "districtFullName": "江西省南昌市/青山湖区/",
+            "起始年级": "一年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册(新起点)",
+            "备注": "(新起点)"
+          },
+          {
+            "districtName": "青云谱区",
+            "districtFullName": "江西省南昌市/青云谱区/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "湾里区",
+            "districtFullName": "江西省南昌市/湾里区/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "西湖区",
+            "districtFullName": "江西省南昌市/西湖区/"
+          },
+          {
+            "districtName": "新建县",
+            "districtFullName": "江西省南昌市/新建县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          }
+        ]
+      },
+      {
+        "cityName": "萍乡市",
+        "cityFullName": "江西省萍乡市/",
+        "districtList": [
+          {
+            "districtName": "安源区",
+            "districtFullName": "江西省萍乡市/安源区/",
+            "起始年级": "一年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册(新起点)",
+            "备注": "(新起点)"
+          },
+          {
+            "districtName": "莲花县",
+            "districtFullName": "江西省萍乡市/莲花县/",
+            "起始年级": "一年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册(新起点)",
+            "备注": "(新起点)"
+          },
+          {
+            "districtName": "芦溪县",
+            "districtFullName": "江西省萍乡市/芦溪县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "上栗县",
+            "districtFullName": "江西省萍乡市/上栗县/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "湘东区",
+            "districtFullName": "江西省萍乡市/湘东区/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          }
+        ]
+      },
+      {
+        "cityName": "上饶市",
+        "cityFullName": "江西省上饶市/",
+        "districtList": [
+          {
+            "districtName": "德兴市",
+            "districtFullName": "江西省上饶市/德兴市/"
+          },
+          {
+            "districtName": "广丰县",
+            "districtFullName": "江西省上饶市/广丰县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "横峰县",
+            "districtFullName": "江西省上饶市/横峰县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "鄱阳县",
+            "districtFullName": "江西省上饶市/鄱阳县/",
+            "起始年级": "一年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册(新起点)",
+            "备注": "(新起点)"
+          },
+          {
+            "districtName": "铅山县",
+            "districtFullName": "江西省上饶市/铅山县/"
+          },
+          {
+            "districtName": "上饶县",
+            "districtFullName": "江西省上饶市/上饶县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "万年县",
+            "districtFullName": "江西省上饶市/万年县/"
+          },
+          {
+            "districtName": "婺源县",
+            "districtFullName": "江西省上饶市/婺源县/"
+          },
+          {
+            "districtName": "信州区",
+            "districtFullName": "江西省上饶市/信州区/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "弋阳县",
+            "districtFullName": "江西省上饶市/弋阳县/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "余干县",
+            "districtFullName": "江西省上饶市/余干县/"
+          },
+          {
+            "districtName": "玉山县",
+            "districtFullName": "江西省上饶市/玉山县/"
+          }
+        ]
+      },
+      {
+        "cityName": "新余市",
+        "cityFullName": "江西省新余市/",
+        "districtList": [
+          {
+            "districtName": "分宜县",
+            "districtFullName": "江西省新余市/分宜县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "渝水区",
+            "districtFullName": "江西省新余市/渝水区/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          }
+        ]
+      },
+      {
+        "cityName": "宜春市",
+        "cityFullName": "江西省宜春市/",
+        "districtList": [
+          {
+            "districtName": "丰城市",
+            "districtFullName": "江西省宜春市/丰城市/"
+          },
+          {
+            "districtName": "奉新县",
+            "districtFullName": "江西省宜春市/奉新县/"
+          },
+          {
+            "districtName": "高安市",
+            "districtFullName": "江西省宜春市/高安市/"
+          },
+          {
+            "districtName": "靖安县",
+            "districtFullName": "江西省宜春市/靖安县/"
+          },
+          {
+            "districtName": "上高县",
+            "districtFullName": "江西省宜春市/上高县/"
+          },
+          {
+            "districtName": "铜鼓县",
+            "districtFullName": "江西省宜春市/铜鼓县/"
+          },
+          {
+            "districtName": "万载县",
+            "districtFullName": "江西省宜春市/万载县/"
+          },
+          {
+            "districtName": "宜丰县",
+            "districtFullName": "江西省宜春市/宜丰县/"
+          },
+          {
+            "districtName": "袁州区",
+            "districtFullName": "江西省宜春市/袁州区/"
+          },
+          {
+            "districtName": "樟树市",
+            "districtFullName": "江西省宜春市/樟树市/"
+          }
+        ]
+      },
+      {
+        "cityName": "鹰潭市",
+        "cityFullName": "江西省鹰潭市/",
+        "districtList": [
+          {
+            "districtName": "贵溪市",
+            "districtFullName": "江西省鹰潭市/贵溪市/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "余江县",
+            "districtFullName": "江西省鹰潭市/余江县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "月湖区",
+            "districtFullName": "江西省鹰潭市/月湖区/",
+            "起始年级": "三年级",
+            "版本": "冀教版",
+            "标题": "冀教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(三年级起点)",
+            "备注": "(三年级起点)"
+          }
+        ]
+      }
+    ]
+  }
+]

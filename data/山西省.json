@@ -1,0 +1,669 @@
+[
+  {
+    "province": "山西省",
+    "city": [
+      {
+        "cityName": "长治市",
+        "cityFullName": "山西省长治市/",
+        "districtList": [
+          {
+            "districtName": "长治县",
+            "districtFullName": "山西省长治市/长治县/"
+          },
+          {
+            "districtName": "长子县",
+            "districtFullName": "山西省长治市/长子县/"
+          },
+          {
+            "districtName": "城区",
+            "districtFullName": "山西省长治市/城区/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "壶关县",
+            "districtFullName": "山西省长治市/壶关县/"
+          },
+          {
+            "districtName": "郊区",
+            "districtFullName": "山西省长治市/郊区/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "黎城县",
+            "districtFullName": "山西省长治市/黎城县/"
+          },
+          {
+            "districtName": "潞城市",
+            "districtFullName": "山西省长治市/潞城市/"
+          },
+          {
+            "districtName": "平顺县",
+            "districtFullName": "山西省长治市/平顺县/"
+          },
+          {
+            "districtName": "沁县",
+            "districtFullName": "山西省长治市/沁县/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "沁源县",
+            "districtFullName": "山西省长治市/沁源县/"
+          },
+          {
+            "districtName": "屯留县",
+            "districtFullName": "山西省长治市/屯留县/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "武乡县",
+            "districtFullName": "山西省长治市/武乡县/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "襄垣县",
+            "districtFullName": "山西省长治市/襄垣县/"
+          }
+        ]
+      },
+      {
+        "cityName": "大同市",
+        "cityFullName": "山西省大同市/",
+        "districtList": [
+          {
+            "districtName": "城区",
+            "districtFullName": "山西省大同市/城区/"
+          },
+          {
+            "districtName": "大同县",
+            "districtFullName": "山西省大同市/大同县/"
+          },
+          {
+            "districtName": "广灵县",
+            "districtFullName": "山西省大同市/广灵县/"
+          },
+          {
+            "districtName": "浑源县",
+            "districtFullName": "山西省大同市/浑源县/"
+          },
+          {
+            "districtName": "矿区",
+            "districtFullName": "山西省大同市/矿区/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "灵丘县",
+            "districtFullName": "山西省大同市/灵丘县/"
+          },
+          {
+            "districtName": "南郊区",
+            "districtFullName": "山西省大同市/南郊区/"
+          },
+          {
+            "districtName": "天镇县",
+            "districtFullName": "山西省大同市/天镇县/"
+          },
+          {
+            "districtName": "新荣区",
+            "districtFullName": "山西省大同市/新荣区/"
+          },
+          {
+            "districtName": "阳高县",
+            "districtFullName": "山西省大同市/阳高县/"
+          }
+        ]
+      },
+      {
+        "cityName": "晋城市",
+        "cityFullName": "山西省晋城市/",
+        "districtList": [
+          {
+            "districtName": "城区",
+            "districtFullName": "山西省晋城市/城区/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "高平市",
+            "districtFullName": "山西省晋城市/高平市/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "陵川县",
+            "districtFullName": "山西省晋城市/陵川县/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "沁水县",
+            "districtFullName": "山西省晋城市/沁水县/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "阳城县",
+            "districtFullName": "山西省晋城市/阳城县/"
+          },
+          {
+            "districtName": "泽州县",
+            "districtFullName": "山西省晋城市/泽州县/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          }
+        ]
+      },
+      {
+        "cityName": "晋中市",
+        "cityFullName": "山西省晋中市/",
+        "districtList": [
+          {
+            "districtName": "和顺县",
+            "districtFullName": "山西省晋中市/和顺县/"
+          },
+          {
+            "districtName": "介休市",
+            "districtFullName": "山西省晋中市/介休市/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "灵石县",
+            "districtFullName": "山西省晋中市/灵石县/"
+          },
+          {
+            "districtName": "平遥县",
+            "districtFullName": "山西省晋中市/平遥县/",
+            "起始年级": "一年级",
+            "版本": "北京版",
+            "标题": "北京版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册"
+          },
+          {
+            "districtName": "祁县",
+            "districtFullName": "山西省晋中市/祁县/"
+          },
+          {
+            "districtName": "寿阳县",
+            "districtFullName": "山西省晋中市/寿阳县/"
+          },
+          {
+            "districtName": "太谷县",
+            "districtFullName": "山西省晋中市/太谷县/",
+            "起始年级": "三年级",
+            "版本": "北师大版",
+            "标题": "北师大版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(三年级起点)",
+            "备注": "(三年级起点)"
+          },
+          {
+            "districtName": "昔阳县",
+            "districtFullName": "山西省晋中市/昔阳县/"
+          },
+          {
+            "districtName": "榆次区",
+            "districtFullName": "山西省晋中市/榆次区/"
+          },
+          {
+            "districtName": "榆社县",
+            "districtFullName": "山西省晋中市/榆社县/"
+          },
+          {
+            "districtName": "左权县",
+            "districtFullName": "山西省晋中市/左权县/"
+          }
+        ]
+      },
+      {
+        "cityName": "临汾市",
+        "cityFullName": "山西省临汾市/",
+        "districtList": [
+          {
+            "districtName": "安泽县",
+            "districtFullName": "山西省临汾市/安泽县/"
+          },
+          {
+            "districtName": "大宁县",
+            "districtFullName": "山西省临汾市/大宁县/"
+          },
+          {
+            "districtName": "汾西县",
+            "districtFullName": "山西省临汾市/汾西县/"
+          },
+          {
+            "districtName": "古县",
+            "districtFullName": "山西省临汾市/古县/"
+          },
+          {
+            "districtName": "洪洞县",
+            "districtFullName": "山西省临汾市/洪洞县/",
+            "起始年级": "三年级",
+            "版本": "外研版",
+            "标题": "外研版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(三年级起点)",
+            "备注": "(三年级起点)"
+          },
+          {
+            "districtName": "侯马市",
+            "districtFullName": "山西省临汾市/侯马市/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "霍州市",
+            "districtFullName": "山西省临汾市/霍州市/",
+            "起始年级": "三年级",
+            "版本": "教科版",
+            "标题": "教科版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(广州版)",
+            "备注": "(广州版)"
+          },
+          {
+            "districtName": "吉县",
+            "districtFullName": "山西省临汾市/吉县/"
+          },
+          {
+            "districtName": "蒲县",
+            "districtFullName": "山西省临汾市/蒲县/"
+          },
+          {
+            "districtName": "曲沃县",
+            "districtFullName": "山西省临汾市/曲沃县/"
+          },
+          {
+            "districtName": "隰县",
+            "districtFullName": "山西省临汾市/隰县/"
+          },
+          {
+            "districtName": "乡宁县",
+            "districtFullName": "山西省临汾市/乡宁县/"
+          },
+          {
+            "districtName": "襄汾县",
+            "districtFullName": "山西省临汾市/襄汾县/",
+            "起始年级": "一年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册(新起点)",
+            "备注": "(新起点)"
+          },
+          {
+            "districtName": "尧都区",
+            "districtFullName": "山西省临汾市/尧都区/",
+            "起始年级": "三年级",
+            "版本": "外研版",
+            "标题": "外研版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(三年级起点)",
+            "备注": "(三年级起点)"
+          },
+          {
+            "districtName": "翼城县",
+            "districtFullName": "山西省临汾市/翼城县/"
+          }
+        ]
+      },
+      {
+        "cityName": "吕梁市",
+        "cityFullName": "山西省吕梁市/",
+        "districtList": [
+          {
+            "districtName": "汾阳市",
+            "districtFullName": "山西省吕梁市/汾阳市/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "交城县",
+            "districtFullName": "山西省吕梁市/交城县/"
+          },
+          {
+            "districtName": "交口县",
+            "districtFullName": "山西省吕梁市/交口县/"
+          },
+          {
+            "districtName": "离石区",
+            "districtFullName": "山西省吕梁市/离石区/"
+          },
+          {
+            "districtName": "临县",
+            "districtFullName": "山西省吕梁市/临县/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "柳林县",
+            "districtFullName": "山西省吕梁市/柳林县/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "石楼县",
+            "districtFullName": "山西省吕梁市/石楼县/"
+          },
+          {
+            "districtName": "文水县",
+            "districtFullName": "山西省吕梁市/文水县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "孝义市",
+            "districtFullName": "山西省吕梁市/孝义市/"
+          },
+          {
+            "districtName": "兴县",
+            "districtFullName": "山西省吕梁市/兴县/",
+            "起始年级": "三年级",
+            "版本": "北师大版",
+            "标题": "北师大版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(三年级起点)",
+            "备注": "(三年级起点)"
+          },
+          {
+            "districtName": "中阳县",
+            "districtFullName": "山西省吕梁市/中阳县/"
+          }
+        ]
+      },
+      {
+        "cityName": "朔州市",
+        "cityFullName": "山西省朔州市/",
+        "districtList": [
+          {
+            "districtName": "怀仁县",
+            "districtFullName": "山西省朔州市/怀仁县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "朔城区",
+            "districtFullName": "山西省朔州市/朔城区/"
+          },
+          {
+            "districtName": "应县",
+            "districtFullName": "山西省朔州市/应县/"
+          }
+        ]
+      },
+      {
+        "cityName": "太原市",
+        "cityFullName": "山西省太原市/",
+        "districtList": [
+          {
+            "districtName": "古交市",
+            "districtFullName": "山西省太原市/古交市/"
+          },
+          {
+            "districtName": "尖草坪区",
+            "districtFullName": "山西省太原市/尖草坪区/"
+          },
+          {
+            "districtName": "晋源区",
+            "districtFullName": "山西省太原市/晋源区/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "娄烦县",
+            "districtFullName": "山西省太原市/娄烦县/"
+          },
+          {
+            "districtName": "清徐县",
+            "districtFullName": "山西省太原市/清徐县/"
+          },
+          {
+            "districtName": "万柏林区",
+            "districtFullName": "山西省太原市/万柏林区/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "小店区",
+            "districtFullName": "山西省太原市/小店区/"
+          },
+          {
+            "districtName": "杏花岭区",
+            "districtFullName": "山西省太原市/杏花岭区/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "迎泽区",
+            "districtFullName": "山西省太原市/迎泽区/"
+          }
+        ]
+      },
+      {
+        "cityName": "忻州市",
+        "cityFullName": "山西省忻州市/",
+        "districtList": [
+          {
+            "districtName": "保德县",
+            "districtFullName": "山西省忻州市/保德县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "代县",
+            "districtFullName": "山西省忻州市/代县/",
+            "起始年级": "一年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册(新起点)",
+            "备注": "(新起点)"
+          },
+          {
+            "districtName": "定襄县",
+            "districtFullName": "山西省忻州市/定襄县/"
+          },
+          {
+            "districtName": "繁峙县",
+            "districtFullName": "山西省忻州市/繁峙县/"
+          },
+          {
+            "districtName": "宁武县",
+            "districtFullName": "山西省忻州市/宁武县/"
+          },
+          {
+            "districtName": "神池县",
+            "districtFullName": "山西省忻州市/神池县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "五台县",
+            "districtFullName": "山西省忻州市/五台县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "五寨县",
+            "districtFullName": "山西省忻州市/五寨县/"
+          },
+          {
+            "districtName": "忻府区",
+            "districtFullName": "山西省忻州市/忻府区/"
+          },
+          {
+            "districtName": "原平市",
+            "districtFullName": "山西省忻州市/原平市/"
+          }
+        ]
+      },
+      {
+        "cityName": "阳泉市",
+        "cityFullName": "山西省阳泉市/",
+        "districtList": [
+          {
+            "districtName": "城区",
+            "districtFullName": "山西省阳泉市/城区/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "郊区",
+            "districtFullName": "山西省阳泉市/郊区/"
+          },
+          {
+            "districtName": "矿区",
+            "districtFullName": "山西省阳泉市/矿区/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "平定县",
+            "districtFullName": "山西省阳泉市/平定县/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          },
+          {
+            "districtName": "盂县",
+            "districtFullName": "山西省阳泉市/盂县/",
+            "起始年级": "一年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书一年级英语上册",
+            "简称": "一年级英语上册(新起点)",
+            "备注": "(新起点)"
+          }
+        ]
+      },
+      {
+        "cityName": "运城市",
+        "cityFullName": "山西省运城市/",
+        "districtList": [
+          {
+            "districtName": "河津市",
+            "districtFullName": "山西省运城市/河津市/"
+          },
+          {
+            "districtName": "稷山县",
+            "districtFullName": "山西省运城市/稷山县/"
+          },
+          {
+            "districtName": "绛县",
+            "districtFullName": "山西省运城市/绛县/"
+          },
+          {
+            "districtName": "临猗县",
+            "districtFullName": "山西省运城市/临猗县/"
+          },
+          {
+            "districtName": "平陆县",
+            "districtFullName": "山西省运城市/平陆县/",
+            "起始年级": "七年级",
+            "版本": "北师大版",
+            "标题": "北师大版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "芮城县",
+            "districtFullName": "山西省运城市/芮城县/"
+          },
+          {
+            "districtName": "万荣县",
+            "districtFullName": "山西省运城市/万荣县/"
+          },
+          {
+            "districtName": "闻喜县",
+            "districtFullName": "山西省运城市/闻喜县/"
+          },
+          {
+            "districtName": "夏县",
+            "districtFullName": "山西省运城市/夏县/"
+          },
+          {
+            "districtName": "新绛县",
+            "districtFullName": "山西省运城市/新绛县/"
+          },
+          {
+            "districtName": "盐湖区",
+            "districtFullName": "山西省运城市/盐湖区/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          },
+          {
+            "districtName": "永济市",
+            "districtFullName": "山西省运城市/永济市/"
+          },
+          {
+            "districtName": "垣曲县",
+            "districtFullName": "山西省运城市/垣曲县/",
+            "起始年级": "三年级",
+            "版本": "沪教版",
+            "标题": "沪教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册"
+          }
+        ]
+      }
+    ]
+  }
+]

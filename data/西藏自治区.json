@@ -1,0 +1,75 @@
+[
+  {
+    "province": "西藏自治区",
+    "city": [
+      {
+        "cityName": "昌都市",
+        "cityFullName": "西藏自治区昌都市/",
+        "districtList": []
+      },
+      {
+        "cityName": "拉萨市",
+        "cityFullName": "西藏自治区拉萨市/",
+        "districtList": [
+          {
+            "districtName": "城关区",
+            "districtFullName": "西藏自治区拉萨市/城关区/",
+            "起始年级": "三年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书三年级英语上册",
+            "简称": "三年级英语上册(PEP)",
+            "备注": "(PEP)"
+          }
+        ]
+      },
+      {
+        "cityName": "林芝地区",
+        "cityFullName": "西藏自治区林芝地区/",
+        "districtList": [
+          {
+            "districtName": "波密县",
+            "districtFullName": "西藏自治区林芝地区/波密县/"
+          }
+        ]
+      },
+      {
+        "cityName": "那曲地区",
+        "cityFullName": "西藏自治区那曲地区/",
+        "districtList": [
+          {
+            "districtName": "安多县",
+            "districtFullName": "西藏自治区那曲地区/安多县/",
+            "起始年级": "七年级",
+            "版本": "人教版",
+            "标题": "人教版义务教育教科书七年级英语上册",
+            "简称": "七年级英语上册"
+          },
+          {
+            "districtName": "索县",
+            "districtFullName": "西藏自治区那曲地区/索县/"
+          }
+        ]
+      },
+      {
+        "cityName": "日喀则市",
+        "cityFullName": "西藏自治区日喀则市/",
+        "districtList": [
+          {
+            "districtName": "江孜县",
+            "districtFullName": "西藏自治区日喀则市/江孜县/"
+          }
+        ]
+      },
+      {
+        "cityName": "山南地区",
+        "cityFullName": "西藏自治区山南地区/",
+        "districtList": [
+          {
+            "districtName": "乃东县",
+            "districtFullName": "西藏自治区山南地区/乃东县/"
+          }
+        ]
+      }
+    ]
+  }
+]

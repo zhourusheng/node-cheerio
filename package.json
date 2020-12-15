@@ -17,6 +17,7 @@
     "superagent-charset": "^1.2.0"
   },
   "devDependencies": {
-    "json2xls": "^0.1.2"
+    "json2xls": "^0.1.2",
+    "ts-node": "^9.1.1"
   }
 }
