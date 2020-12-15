@@ -19,8 +19,41 @@ function getHtml(url) {
     $($provinceList).map((i, val) => {
       const text = $(val).text()
       provinceList.push({
-        省份: text,
-        城市: []
+        province: text,
+        city: []
+      })
+    })
+
+    const $citylist = '#main #citylist a'
+    $($citylist).map((i, val) => {
+      const text = $(val).text()
+      const href = $(val).attr('href').split('/city/')[1]
+      provinceList.map((p, i) => {
+        if (href.includes(p.province)) {
+          provinceList[i].city.push({
+            cityName: text,
+            cityFullName: href,
+            districtList: []
+          })
+        }
+      })
+    })
+
+    provinceList.slice(0, 2).forEach((item, index) => {
+      // provinceList.forEach(item => {
+      item.city.forEach((city, i) => {
+        const _url = encodeURI(`${url}${city.cityFullName}`)
+        agent.get(_url).charset('gbk').end((err, res) => {
+          html = res.text;
+          const $ = cheerio.load(html, { decodeEntities: false })
+          const $district = '#main .Districtlist ul li a'
+          $($district).map((i, val) => {
+            const text = $(val).text()
+            provinceList[index].city[i].districtList.push({
+              districtName: text
+            })
+          })
+        })
       })
     })
 

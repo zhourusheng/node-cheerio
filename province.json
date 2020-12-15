@@ -1,104 +1,1962 @@
 [
   {
-    "省份": "安徽省"
+    "province": "安徽省",
+    "city": [
+      {
+        "cityName": "安庆市",
+        "cityFullName": "安徽省安庆市/",
+        "districtList": []
+      },
+      {
+        "cityName": "蚌埠市",
+        "cityFullName": "安徽省蚌埠市/",
+        "districtList": []
+      },
+      {
+        "cityName": "亳州市",
+        "cityFullName": "安徽省亳州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "池州市",
+        "cityFullName": "安徽省池州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "滁州市",
+        "cityFullName": "安徽省滁州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "阜阳市",
+        "cityFullName": "安徽省阜阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "合肥市",
+        "cityFullName": "安徽省合肥市/",
+        "districtList": []
+      },
+      {
+        "cityName": "淮北市",
+        "cityFullName": "安徽省淮北市/",
+        "districtList": []
+      },
+      {
+        "cityName": "淮南市",
+        "cityFullName": "安徽省淮南市/",
+        "districtList": []
+      },
+      {
+        "cityName": "黄山市",
+        "cityFullName": "安徽省黄山市/",
+        "districtList": []
+      },
+      {
+        "cityName": "六安市",
+        "cityFullName": "安徽省六安市/",
+        "districtList": []
+      },
+      {
+        "cityName": "马鞍山市",
+        "cityFullName": "安徽省马鞍山市/",
+        "districtList": []
+      },
+      {
+        "cityName": "宿州市",
+        "cityFullName": "安徽省宿州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "铜陵市",
+        "cityFullName": "安徽省铜陵市/",
+        "districtList": []
+      },
+      {
+        "cityName": "芜湖市",
+        "cityFullName": "安徽省芜湖市/",
+        "districtList": []
+      },
+      {
+        "cityName": "宣城市",
+        "cityFullName": "安徽省宣城市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "澳门特别行政区"
+    "province": "澳门特别行政区",
+    "city": [
+      {
+        "cityName": "澳门半岛",
+        "cityFullName": "澳门特别行政区澳门半岛/",
+        "districtList": []
+      },
+      {
+        "cityName": "路环岛",
+        "cityFullName": "澳门特别行政区路环岛/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "北京"
+    "province": "北京",
+    "city": [
+      {
+        "cityName": "北京市",
+        "cityFullName": "北京市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "福建省"
+    "province": "福建省",
+    "city": [
+      {
+        "cityName": "福州市",
+        "cityFullName": "福建省福州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "龙岩市",
+        "cityFullName": "福建省龙岩市/",
+        "districtList": []
+      },
+      {
+        "cityName": "南平市",
+        "cityFullName": "福建省南平市/",
+        "districtList": []
+      },
+      {
+        "cityName": "宁德市",
+        "cityFullName": "福建省宁德市/",
+        "districtList": []
+      },
+      {
+        "cityName": "莆田市",
+        "cityFullName": "福建省莆田市/",
+        "districtList": []
+      },
+      {
+        "cityName": "泉州市",
+        "cityFullName": "福建省泉州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "三明市",
+        "cityFullName": "福建省三明市/",
+        "districtList": []
+      },
+      {
+        "cityName": "厦门市",
+        "cityFullName": "福建省厦门市/",
+        "districtList": []
+      },
+      {
+        "cityName": "漳州市",
+        "cityFullName": "福建省漳州市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "甘肃省"
+    "province": "甘肃省",
+    "city": [
+      {
+        "cityName": "白银市",
+        "cityFullName": "甘肃省白银市/",
+        "districtList": []
+      },
+      {
+        "cityName": "定西市",
+        "cityFullName": "甘肃省定西市/",
+        "districtList": []
+      },
+      {
+        "cityName": "甘南藏族自治州",
+        "cityFullName": "甘肃省甘南藏族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "嘉峪关市",
+        "cityFullName": "甘肃省嘉峪关市/",
+        "districtList": []
+      },
+      {
+        "cityName": "金昌市",
+        "cityFullName": "甘肃省金昌市/",
+        "districtList": []
+      },
+      {
+        "cityName": "酒泉市",
+        "cityFullName": "甘肃省酒泉市/",
+        "districtList": []
+      },
+      {
+        "cityName": "兰州市",
+        "cityFullName": "甘肃省兰州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "临夏回族自治州",
+        "cityFullName": "甘肃省临夏回族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "陇南市",
+        "cityFullName": "甘肃省陇南市/",
+        "districtList": []
+      },
+      {
+        "cityName": "平凉市",
+        "cityFullName": "甘肃省平凉市/",
+        "districtList": []
+      },
+      {
+        "cityName": "庆阳市",
+        "cityFullName": "甘肃省庆阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "天水市",
+        "cityFullName": "甘肃省天水市/",
+        "districtList": []
+      },
+      {
+        "cityName": "武威市",
+        "cityFullName": "甘肃省武威市/",
+        "districtList": []
+      },
+      {
+        "cityName": "张掖市",
+        "cityFullName": "甘肃省张掖市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "广东省"
+    "province": "广东省",
+    "city": [
+      {
+        "cityName": "潮州市",
+        "cityFullName": "广东省潮州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "东莞市",
+        "cityFullName": "广东省东莞市/",
+        "districtList": []
+      },
+      {
+        "cityName": "佛山市",
+        "cityFullName": "广东省佛山市/",
+        "districtList": []
+      },
+      {
+        "cityName": "广州市",
+        "cityFullName": "广东省广州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "河源市",
+        "cityFullName": "广东省河源市/",
+        "districtList": []
+      },
+      {
+        "cityName": "惠州市",
+        "cityFullName": "广东省惠州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "江门市",
+        "cityFullName": "广东省江门市/",
+        "districtList": []
+      },
+      {
+        "cityName": "揭阳市",
+        "cityFullName": "广东省揭阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "茂名市",
+        "cityFullName": "广东省茂名市/",
+        "districtList": []
+      },
+      {
+        "cityName": "梅州市",
+        "cityFullName": "广东省梅州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "清远市",
+        "cityFullName": "广东省清远市/",
+        "districtList": []
+      },
+      {
+        "cityName": "汕头市",
+        "cityFullName": "广东省汕头市/",
+        "districtList": []
+      },
+      {
+        "cityName": "汕尾市",
+        "cityFullName": "广东省汕尾市/",
+        "districtList": []
+      },
+      {
+        "cityName": "韶关市",
+        "cityFullName": "广东省韶关市/",
+        "districtList": []
+      },
+      {
+        "cityName": "深圳市",
+        "cityFullName": "广东省深圳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "阳江市",
+        "cityFullName": "广东省阳江市/",
+        "districtList": []
+      },
+      {
+        "cityName": "云浮市",
+        "cityFullName": "广东省云浮市/",
+        "districtList": []
+      },
+      {
+        "cityName": "湛江市",
+        "cityFullName": "广东省湛江市/",
+        "districtList": []
+      },
+      {
+        "cityName": "肇庆市",
+        "cityFullName": "广东省肇庆市/",
+        "districtList": []
+      },
+      {
+        "cityName": "中山市",
+        "cityFullName": "广东省中山市/",
+        "districtList": []
+      },
+      {
+        "cityName": "珠海市",
+        "cityFullName": "广东省珠海市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "广西壮族自治区"
+    "province": "广西壮族自治区",
+    "city": [
+      {
+        "cityName": "百色市",
+        "cityFullName": "广西壮族自治区百色市/",
+        "districtList": []
+      },
+      {
+        "cityName": "北海市",
+        "cityFullName": "广西壮族自治区北海市/",
+        "districtList": []
+      },
+      {
+        "cityName": "崇左市",
+        "cityFullName": "广西壮族自治区崇左市/",
+        "districtList": []
+      },
+      {
+        "cityName": "防城港市",
+        "cityFullName": "广西壮族自治区防城港市/",
+        "districtList": []
+      },
+      {
+        "cityName": "贵港市",
+        "cityFullName": "广西壮族自治区贵港市/",
+        "districtList": []
+      },
+      {
+        "cityName": "桂林市",
+        "cityFullName": "广西壮族自治区桂林市/",
+        "districtList": []
+      },
+      {
+        "cityName": "河池市",
+        "cityFullName": "广西壮族自治区河池市/",
+        "districtList": []
+      },
+      {
+        "cityName": "贺州市",
+        "cityFullName": "广西壮族自治区贺州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "来宾市",
+        "cityFullName": "广西壮族自治区来宾市/",
+        "districtList": []
+      },
+      {
+        "cityName": "柳州市",
+        "cityFullName": "广西壮族自治区柳州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "南宁市",
+        "cityFullName": "广西壮族自治区南宁市/",
+        "districtList": []
+      },
+      {
+        "cityName": "钦州市",
+        "cityFullName": "广西壮族自治区钦州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "梧州市",
+        "cityFullName": "广西壮族自治区梧州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "玉林市",
+        "cityFullName": "广西壮族自治区玉林市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "贵州省"
+    "province": "贵州省",
+    "city": [
+      {
+        "cityName": "安顺市",
+        "cityFullName": "贵州省安顺市/",
+        "districtList": []
+      },
+      {
+        "cityName": "毕节市",
+        "cityFullName": "贵州省毕节市/",
+        "districtList": []
+      },
+      {
+        "cityName": "贵阳市",
+        "cityFullName": "贵州省贵阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "六盘水市",
+        "cityFullName": "贵州省六盘水市/",
+        "districtList": []
+      },
+      {
+        "cityName": "黔东南苗族侗族自治州",
+        "cityFullName": "贵州省黔东南苗族侗族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "黔南布依族苗族自治州",
+        "cityFullName": "贵州省黔南布依族苗族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "黔西南布依族苗族自治州",
+        "cityFullName": "贵州省黔西南布依族苗族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "铜仁市",
+        "cityFullName": "贵州省铜仁市/",
+        "districtList": []
+      },
+      {
+        "cityName": "遵义市",
+        "cityFullName": "贵州省遵义市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "海南省"
+    "province": "海南省",
+    "city": [
+      {
+        "cityName": "白沙黎族自治县",
+        "cityFullName": "海南省白沙黎族自治县/",
+        "districtList": []
+      },
+      {
+        "cityName": "保亭黎族苗族自治县",
+        "cityFullName": "海南省保亭黎族苗族自治县/",
+        "districtList": []
+      },
+      {
+        "cityName": "昌江黎族自治县",
+        "cityFullName": "海南省昌江黎族自治县/",
+        "districtList": []
+      },
+      {
+        "cityName": "澄迈县",
+        "cityFullName": "海南省澄迈县/",
+        "districtList": []
+      },
+      {
+        "cityName": "儋州市",
+        "cityFullName": "海南省儋州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "定安县",
+        "cityFullName": "海南省定安县/",
+        "districtList": []
+      },
+      {
+        "cityName": "东方市",
+        "cityFullName": "海南省东方市/",
+        "districtList": []
+      },
+      {
+        "cityName": "海口市",
+        "cityFullName": "海南省海口市/",
+        "districtList": []
+      },
+      {
+        "cityName": "乐东黎族自治县",
+        "cityFullName": "海南省乐东黎族自治县/",
+        "districtList": []
+      },
+      {
+        "cityName": "临高县",
+        "cityFullName": "海南省临高县/",
+        "districtList": []
+      },
+      {
+        "cityName": "陵水黎族自治县",
+        "cityFullName": "海南省陵水黎族自治县/",
+        "districtList": []
+      },
+      {
+        "cityName": "琼海市",
+        "cityFullName": "海南省琼海市/",
+        "districtList": []
+      },
+      {
+        "cityName": "琼中黎族苗族自治县",
+        "cityFullName": "海南省琼中黎族苗族自治县/",
+        "districtList": []
+      },
+      {
+        "cityName": "三亚市",
+        "cityFullName": "海南省三亚市/",
+        "districtList": []
+      },
+      {
+        "cityName": "屯昌县",
+        "cityFullName": "海南省屯昌县/",
+        "districtList": []
+      },
+      {
+        "cityName": "万宁市",
+        "cityFullName": "海南省万宁市/",
+        "districtList": []
+      },
+      {
+        "cityName": "文昌市",
+        "cityFullName": "海南省文昌市/",
+        "districtList": []
+      },
+      {
+        "cityName": "五指山市",
+        "cityFullName": "海南省五指山市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "河北省"
+    "province": "河北省",
+    "city": [
+      {
+        "cityName": "保定市",
+        "cityFullName": "河北省保定市/",
+        "districtList": []
+      },
+      {
+        "cityName": "沧州市",
+        "cityFullName": "河北省沧州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "承德市",
+        "cityFullName": "河北省承德市/",
+        "districtList": []
+      },
+      {
+        "cityName": "邯郸市",
+        "cityFullName": "河北省邯郸市/",
+        "districtList": []
+      },
+      {
+        "cityName": "衡水市",
+        "cityFullName": "河北省衡水市/",
+        "districtList": []
+      },
+      {
+        "cityName": "廊坊市",
+        "cityFullName": "河北省廊坊市/",
+        "districtList": []
+      },
+      {
+        "cityName": "秦皇岛市",
+        "cityFullName": "河北省秦皇岛市/",
+        "districtList": []
+      },
+      {
+        "cityName": "石家庄市",
+        "cityFullName": "河北省石家庄市/",
+        "districtList": []
+      },
+      {
+        "cityName": "唐山市",
+        "cityFullName": "河北省唐山市/",
+        "districtList": []
+      },
+      {
+        "cityName": "邢台市",
+        "cityFullName": "河北省邢台市/",
+        "districtList": []
+      },
+      {
+        "cityName": "张家口市",
+        "cityFullName": "河北省张家口市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "河南省"
+    "province": "河南省",
+    "city": [
+      {
+        "cityName": "安阳市",
+        "cityFullName": "河南省安阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "鹤壁市",
+        "cityFullName": "河南省鹤壁市/",
+        "districtList": []
+      },
+      {
+        "cityName": "济源市",
+        "cityFullName": "河南省济源市/",
+        "districtList": []
+      },
+      {
+        "cityName": "焦作市",
+        "cityFullName": "河南省焦作市/",
+        "districtList": []
+      },
+      {
+        "cityName": "开封市",
+        "cityFullName": "河南省开封市/",
+        "districtList": []
+      },
+      {
+        "cityName": "洛阳市",
+        "cityFullName": "河南省洛阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "漯河市",
+        "cityFullName": "河南省漯河市/",
+        "districtList": []
+      },
+      {
+        "cityName": "南阳市",
+        "cityFullName": "河南省南阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "平顶山市",
+        "cityFullName": "河南省平顶山市/",
+        "districtList": []
+      },
+      {
+        "cityName": "濮阳市",
+        "cityFullName": "河南省濮阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "三门峡市",
+        "cityFullName": "河南省三门峡市/",
+        "districtList": []
+      },
+      {
+        "cityName": "商丘市",
+        "cityFullName": "河南省商丘市/",
+        "districtList": []
+      },
+      {
+        "cityName": "新乡市",
+        "cityFullName": "河南省新乡市/",
+        "districtList": []
+      },
+      {
+        "cityName": "信阳市",
+        "cityFullName": "河南省信阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "许昌市",
+        "cityFullName": "河南省许昌市/",
+        "districtList": []
+      },
+      {
+        "cityName": "郑州市",
+        "cityFullName": "河南省郑州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "周口市",
+        "cityFullName": "河南省周口市/",
+        "districtList": []
+      },
+      {
+        "cityName": "驻马店市",
+        "cityFullName": "河南省驻马店市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "黑龙江省"
+    "province": "黑龙江省",
+    "city": [
+      {
+        "cityName": "大庆市",
+        "cityFullName": "黑龙江省大庆市/",
+        "districtList": []
+      },
+      {
+        "cityName": "大兴安岭地区",
+        "cityFullName": "黑龙江省大兴安岭地区/",
+        "districtList": []
+      },
+      {
+        "cityName": "哈尔滨市",
+        "cityFullName": "黑龙江省哈尔滨市/",
+        "districtList": []
+      },
+      {
+        "cityName": "鹤岗市",
+        "cityFullName": "黑龙江省鹤岗市/",
+        "districtList": []
+      },
+      {
+        "cityName": "黑河市",
+        "cityFullName": "黑龙江省黑河市/",
+        "districtList": []
+      },
+      {
+        "cityName": "鸡西市",
+        "cityFullName": "黑龙江省鸡西市/",
+        "districtList": []
+      },
+      {
+        "cityName": "佳木斯市",
+        "cityFullName": "黑龙江省佳木斯市/",
+        "districtList": []
+      },
+      {
+        "cityName": "牡丹江市",
+        "cityFullName": "黑龙江省牡丹江市/",
+        "districtList": []
+      },
+      {
+        "cityName": "七台河市",
+        "cityFullName": "黑龙江省七台河市/",
+        "districtList": []
+      },
+      {
+        "cityName": "齐齐哈尔市",
+        "cityFullName": "黑龙江省齐齐哈尔市/",
+        "districtList": []
+      },
+      {
+        "cityName": "双鸭山市",
+        "cityFullName": "黑龙江省双鸭山市/",
+        "districtList": []
+      },
+      {
+        "cityName": "绥化市",
+        "cityFullName": "黑龙江省绥化市/",
+        "districtList": []
+      },
+      {
+        "cityName": "伊春市",
+        "cityFullName": "黑龙江省伊春市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "湖北省"
+    "province": "湖北省",
+    "city": [
+      {
+        "cityName": "鄂州市",
+        "cityFullName": "湖北省鄂州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "恩施土家族苗族自治州",
+        "cityFullName": "湖北省恩施土家族苗族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "黄冈市",
+        "cityFullName": "湖北省黄冈市/",
+        "districtList": []
+      },
+      {
+        "cityName": "黄石市",
+        "cityFullName": "湖北省黄石市/",
+        "districtList": []
+      },
+      {
+        "cityName": "荆门市",
+        "cityFullName": "湖北省荆门市/",
+        "districtList": []
+      },
+      {
+        "cityName": "荆州市",
+        "cityFullName": "湖北省荆州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "潜江市",
+        "cityFullName": "湖北省潜江市/",
+        "districtList": []
+      },
+      {
+        "cityName": "十堰市",
+        "cityFullName": "湖北省十堰市/",
+        "districtList": []
+      },
+      {
+        "cityName": "随州市",
+        "cityFullName": "湖北省随州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "天门市",
+        "cityFullName": "湖北省天门市/",
+        "districtList": []
+      },
+      {
+        "cityName": "武汉市",
+        "cityFullName": "湖北省武汉市/",
+        "districtList": []
+      },
+      {
+        "cityName": "仙桃市",
+        "cityFullName": "湖北省仙桃市/",
+        "districtList": []
+      },
+      {
+        "cityName": "咸宁市",
+        "cityFullName": "湖北省咸宁市/",
+        "districtList": []
+      },
+      {
+        "cityName": "襄阳市",
+        "cityFullName": "湖北省襄阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "孝感市",
+        "cityFullName": "湖北省孝感市/",
+        "districtList": []
+      },
+      {
+        "cityName": "宜昌市",
+        "cityFullName": "湖北省宜昌市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "湖南省"
+    "province": "湖南省",
+    "city": [
+      {
+        "cityName": "长沙市",
+        "cityFullName": "湖南省长沙市/",
+        "districtList": []
+      },
+      {
+        "cityName": "常德市",
+        "cityFullName": "湖南省常德市/",
+        "districtList": []
+      },
+      {
+        "cityName": "郴州市",
+        "cityFullName": "湖南省郴州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "衡阳市",
+        "cityFullName": "湖南省衡阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "怀化市",
+        "cityFullName": "湖南省怀化市/",
+        "districtList": []
+      },
+      {
+        "cityName": "娄底市",
+        "cityFullName": "湖南省娄底市/",
+        "districtList": []
+      },
+      {
+        "cityName": "邵阳市",
+        "cityFullName": "湖南省邵阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "湘潭市",
+        "cityFullName": "湖南省湘潭市/",
+        "districtList": []
+      },
+      {
+        "cityName": "湘西土家族苗族自治州",
+        "cityFullName": "湖南省湘西土家族苗族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "益阳市",
+        "cityFullName": "湖南省益阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "永州市",
+        "cityFullName": "湖南省永州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "岳阳市",
+        "cityFullName": "湖南省岳阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "张家界市",
+        "cityFullName": "湖南省张家界市/",
+        "districtList": []
+      },
+      {
+        "cityName": "株洲市",
+        "cityFullName": "湖南省株洲市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "吉林省"
+    "province": "吉林省",
+    "city": [
+      {
+        "cityName": "白城市",
+        "cityFullName": "吉林省白城市/",
+        "districtList": []
+      },
+      {
+        "cityName": "白山市",
+        "cityFullName": "吉林省白山市/",
+        "districtList": []
+      },
+      {
+        "cityName": "长春市",
+        "cityFullName": "吉林省长春市/",
+        "districtList": []
+      },
+      {
+        "cityName": "吉林市",
+        "cityFullName": "吉林省吉林市/",
+        "districtList": []
+      },
+      {
+        "cityName": "辽源市",
+        "cityFullName": "吉林省辽源市/",
+        "districtList": []
+      },
+      {
+        "cityName": "四平市",
+        "cityFullName": "吉林省四平市/",
+        "districtList": []
+      },
+      {
+        "cityName": "松原市",
+        "cityFullName": "吉林省松原市/",
+        "districtList": []
+      },
+      {
+        "cityName": "通化市",
+        "cityFullName": "吉林省通化市/",
+        "districtList": []
+      },
+      {
+        "cityName": "延边朝鲜族自治州",
+        "cityFullName": "吉林省延边朝鲜族自治州/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "江苏省"
+    "province": "江苏省",
+    "city": [
+      {
+        "cityName": "常州市",
+        "cityFullName": "江苏省常州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "淮安市",
+        "cityFullName": "江苏省淮安市/",
+        "districtList": []
+      },
+      {
+        "cityName": "连云港市",
+        "cityFullName": "江苏省连云港市/",
+        "districtList": []
+      },
+      {
+        "cityName": "南京市",
+        "cityFullName": "江苏省南京市/",
+        "districtList": []
+      },
+      {
+        "cityName": "南通市",
+        "cityFullName": "江苏省南通市/",
+        "districtList": []
+      },
+      {
+        "cityName": "苏州市",
+        "cityFullName": "江苏省苏州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "宿迁市",
+        "cityFullName": "江苏省宿迁市/",
+        "districtList": []
+      },
+      {
+        "cityName": "泰州市",
+        "cityFullName": "江苏省泰州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "无锡市",
+        "cityFullName": "江苏省无锡市/",
+        "districtList": []
+      },
+      {
+        "cityName": "徐州市",
+        "cityFullName": "江苏省徐州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "盐城市",
+        "cityFullName": "江苏省盐城市/",
+        "districtList": []
+      },
+      {
+        "cityName": "扬州市",
+        "cityFullName": "江苏省扬州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "镇江市",
+        "cityFullName": "江苏省镇江市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "江西省"
+    "province": "江西省",
+    "city": [
+      {
+        "cityName": "抚州市",
+        "cityFullName": "江西省抚州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "赣州市",
+        "cityFullName": "江西省赣州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "吉安市",
+        "cityFullName": "江西省吉安市/",
+        "districtList": []
+      },
+      {
+        "cityName": "景德镇市",
+        "cityFullName": "江西省景德镇市/",
+        "districtList": []
+      },
+      {
+        "cityName": "九江市",
+        "cityFullName": "江西省九江市/",
+        "districtList": []
+      },
+      {
+        "cityName": "南昌市",
+        "cityFullName": "江西省南昌市/",
+        "districtList": []
+      },
+      {
+        "cityName": "萍乡市",
+        "cityFullName": "江西省萍乡市/",
+        "districtList": []
+      },
+      {
+        "cityName": "上饶市",
+        "cityFullName": "江西省上饶市/",
+        "districtList": []
+      },
+      {
+        "cityName": "新余市",
+        "cityFullName": "江西省新余市/",
+        "districtList": []
+      },
+      {
+        "cityName": "宜春市",
+        "cityFullName": "江西省宜春市/",
+        "districtList": []
+      },
+      {
+        "cityName": "鹰潭市",
+        "cityFullName": "江西省鹰潭市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "辽宁省"
+    "province": "辽宁省",
+    "city": [
+      {
+        "cityName": "鞍山市",
+        "cityFullName": "辽宁省鞍山市/",
+        "districtList": []
+      },
+      {
+        "cityName": "本溪市",
+        "cityFullName": "辽宁省本溪市/",
+        "districtList": []
+      },
+      {
+        "cityName": "朝阳市",
+        "cityFullName": "辽宁省朝阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "大连市",
+        "cityFullName": "辽宁省大连市/",
+        "districtList": []
+      },
+      {
+        "cityName": "丹东市",
+        "cityFullName": "辽宁省丹东市/",
+        "districtList": []
+      },
+      {
+        "cityName": "抚顺市",
+        "cityFullName": "辽宁省抚顺市/",
+        "districtList": []
+      },
+      {
+        "cityName": "阜新市",
+        "cityFullName": "辽宁省阜新市/",
+        "districtList": []
+      },
+      {
+        "cityName": "葫芦岛市",
+        "cityFullName": "辽宁省葫芦岛市/",
+        "districtList": []
+      },
+      {
+        "cityName": "锦州市",
+        "cityFullName": "辽宁省锦州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "辽阳市",
+        "cityFullName": "辽宁省辽阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "盘锦市",
+        "cityFullName": "辽宁省盘锦市/",
+        "districtList": []
+      },
+      {
+        "cityName": "沈阳市",
+        "cityFullName": "辽宁省沈阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "铁岭市",
+        "cityFullName": "辽宁省铁岭市/",
+        "districtList": []
+      },
+      {
+        "cityName": "营口市",
+        "cityFullName": "辽宁省营口市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "内蒙古自治区"
+    "province": "内蒙古自治区",
+    "city": [
+      {
+        "cityName": "阿拉善盟",
+        "cityFullName": "内蒙古自治区阿拉善盟/",
+        "districtList": []
+      },
+      {
+        "cityName": "巴彦淖尔市",
+        "cityFullName": "内蒙古自治区巴彦淖尔市/",
+        "districtList": []
+      },
+      {
+        "cityName": "包头市",
+        "cityFullName": "内蒙古自治区包头市/",
+        "districtList": []
+      },
+      {
+        "cityName": "赤峰市",
+        "cityFullName": "内蒙古自治区赤峰市/",
+        "districtList": []
+      },
+      {
+        "cityName": "鄂尔多斯市",
+        "cityFullName": "内蒙古自治区鄂尔多斯市/",
+        "districtList": []
+      },
+      {
+        "cityName": "呼和浩特市",
+        "cityFullName": "内蒙古自治区呼和浩特市/",
+        "districtList": []
+      },
+      {
+        "cityName": "呼伦贝尔市",
+        "cityFullName": "内蒙古自治区呼伦贝尔市/",
+        "districtList": []
+      },
+      {
+        "cityName": "通辽市",
+        "cityFullName": "内蒙古自治区通辽市/",
+        "districtList": []
+      },
+      {
+        "cityName": "乌海市",
+        "cityFullName": "内蒙古自治区乌海市/",
+        "districtList": []
+      },
+      {
+        "cityName": "乌兰察布市",
+        "cityFullName": "内蒙古自治区乌兰察布市/",
+        "districtList": []
+      },
+      {
+        "cityName": "锡林郭勒盟",
+        "cityFullName": "内蒙古自治区锡林郭勒盟/",
+        "districtList": []
+      },
+      {
+        "cityName": "兴安盟",
+        "cityFullName": "内蒙古自治区兴安盟/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "宁夏回族自治区"
+    "province": "宁夏回族自治区",
+    "city": [
+      {
+        "cityName": "固原市",
+        "cityFullName": "宁夏回族自治区固原市/",
+        "districtList": []
+      },
+      {
+        "cityName": "石嘴山市",
+        "cityFullName": "宁夏回族自治区石嘴山市/",
+        "districtList": []
+      },
+      {
+        "cityName": "吴忠市",
+        "cityFullName": "宁夏回族自治区吴忠市/",
+        "districtList": []
+      },
+      {
+        "cityName": "银川市",
+        "cityFullName": "宁夏回族自治区银川市/",
+        "districtList": []
+      },
+      {
+        "cityName": "中卫市",
+        "cityFullName": "宁夏回族自治区中卫市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "青海省"
+    "province": "青海省",
+    "city": [
+      {
+        "cityName": "海北藏族自治州",
+        "cityFullName": "青海省海北藏族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "海东市",
+        "cityFullName": "青海省海东市/",
+        "districtList": []
+      },
+      {
+        "cityName": "海南藏族自治州",
+        "cityFullName": "青海省海南藏族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "海西蒙古族藏族自治州",
+        "cityFullName": "青海省海西蒙古族藏族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "黄南藏族自治州",
+        "cityFullName": "青海省黄南藏族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "西宁市",
+        "cityFullName": "青海省西宁市/",
+        "districtList": []
+      },
+      {
+        "cityName": "玉树藏族自治州",
+        "cityFullName": "青海省玉树藏族自治州/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "山东省"
+    "province": "山东省",
+    "city": [
+      {
+        "cityName": "滨州市",
+        "cityFullName": "山东省滨州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "德州市",
+        "cityFullName": "山东省德州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "东营市",
+        "cityFullName": "山东省东营市/",
+        "districtList": []
+      },
+      {
+        "cityName": "菏泽市",
+        "cityFullName": "山东省菏泽市/",
+        "districtList": []
+      },
+      {
+        "cityName": "济南市",
+        "cityFullName": "山东省济南市/",
+        "districtList": []
+      },
+      {
+        "cityName": "济宁市",
+        "cityFullName": "山东省济宁市/",
+        "districtList": []
+      },
+      {
+        "cityName": "莱芜市",
+        "cityFullName": "山东省莱芜市/",
+        "districtList": []
+      },
+      {
+        "cityName": "聊城市",
+        "cityFullName": "山东省聊城市/",
+        "districtList": []
+      },
+      {
+        "cityName": "临沂市",
+        "cityFullName": "山东省临沂市/",
+        "districtList": []
+      },
+      {
+        "cityName": "青岛市",
+        "cityFullName": "山东省青岛市/",
+        "districtList": []
+      },
+      {
+        "cityName": "日照市",
+        "cityFullName": "山东省日照市/",
+        "districtList": []
+      },
+      {
+        "cityName": "泰安市",
+        "cityFullName": "山东省泰安市/",
+        "districtList": []
+      },
+      {
+        "cityName": "威海市",
+        "cityFullName": "山东省威海市/",
+        "districtList": []
+      },
+      {
+        "cityName": "潍坊市",
+        "cityFullName": "山东省潍坊市/",
+        "districtList": []
+      },
+      {
+        "cityName": "烟台市",
+        "cityFullName": "山东省烟台市/",
+        "districtList": []
+      },
+      {
+        "cityName": "枣庄市",
+        "cityFullName": "山东省枣庄市/",
+        "districtList": []
+      },
+      {
+        "cityName": "淄博市",
+        "cityFullName": "山东省淄博市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "山西省"
+    "province": "山西省",
+    "city": [
+      {
+        "cityName": "长治市",
+        "cityFullName": "山西省长治市/",
+        "districtList": []
+      },
+      {
+        "cityName": "大同市",
+        "cityFullName": "山西省大同市/",
+        "districtList": []
+      },
+      {
+        "cityName": "晋城市",
+        "cityFullName": "山西省晋城市/",
+        "districtList": []
+      },
+      {
+        "cityName": "晋中市",
+        "cityFullName": "山西省晋中市/",
+        "districtList": []
+      },
+      {
+        "cityName": "临汾市",
+        "cityFullName": "山西省临汾市/",
+        "districtList": []
+      },
+      {
+        "cityName": "吕梁市",
+        "cityFullName": "山西省吕梁市/",
+        "districtList": []
+      },
+      {
+        "cityName": "朔州市",
+        "cityFullName": "山西省朔州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "太原市",
+        "cityFullName": "山西省太原市/",
+        "districtList": []
+      },
+      {
+        "cityName": "忻州市",
+        "cityFullName": "山西省忻州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "阳泉市",
+        "cityFullName": "山西省阳泉市/",
+        "districtList": []
+      },
+      {
+        "cityName": "运城市",
+        "cityFullName": "山西省运城市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "陕西省"
+    "province": "陕西省",
+    "city": [
+      {
+        "cityName": "安康市",
+        "cityFullName": "陕西省安康市/",
+        "districtList": []
+      },
+      {
+        "cityName": "宝鸡市",
+        "cityFullName": "陕西省宝鸡市/",
+        "districtList": []
+      },
+      {
+        "cityName": "汉中市",
+        "cityFullName": "陕西省汉中市/",
+        "districtList": []
+      },
+      {
+        "cityName": "商洛市",
+        "cityFullName": "陕西省商洛市/",
+        "districtList": []
+      },
+      {
+        "cityName": "铜川市",
+        "cityFullName": "陕西省铜川市/",
+        "districtList": []
+      },
+      {
+        "cityName": "渭南市",
+        "cityFullName": "陕西省渭南市/",
+        "districtList": []
+      },
+      {
+        "cityName": "西安市",
+        "cityFullName": "陕西省西安市/",
+        "districtList": []
+      },
+      {
+        "cityName": "咸阳市",
+        "cityFullName": "陕西省咸阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "延安市",
+        "cityFullName": "陕西省延安市/",
+        "districtList": []
+      },
+      {
+        "cityName": "榆林市",
+        "cityFullName": "陕西省榆林市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "上海"
+    "province": "上海",
+    "city": [
+      {
+        "cityName": "上海市",
+        "cityFullName": "上海市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "四川省"
+    "province": "四川省",
+    "city": [
+      {
+        "cityName": "阿坝藏族羌族自治州",
+        "cityFullName": "四川省阿坝藏族羌族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "巴中市",
+        "cityFullName": "四川省巴中市/",
+        "districtList": []
+      },
+      {
+        "cityName": "成都市",
+        "cityFullName": "四川省成都市/",
+        "districtList": []
+      },
+      {
+        "cityName": "达州市",
+        "cityFullName": "四川省达州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "德阳市",
+        "cityFullName": "四川省德阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "甘孜藏族自治州",
+        "cityFullName": "四川省甘孜藏族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "广安市",
+        "cityFullName": "四川省广安市/",
+        "districtList": []
+      },
+      {
+        "cityName": "广元市",
+        "cityFullName": "四川省广元市/",
+        "districtList": []
+      },
+      {
+        "cityName": "乐山市",
+        "cityFullName": "四川省乐山市/",
+        "districtList": []
+      },
+      {
+        "cityName": "凉山彝族自治州",
+        "cityFullName": "四川省凉山彝族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "泸州市",
+        "cityFullName": "四川省泸州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "眉山市",
+        "cityFullName": "四川省眉山市/",
+        "districtList": []
+      },
+      {
+        "cityName": "绵阳市",
+        "cityFullName": "四川省绵阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "内江市",
+        "cityFullName": "四川省内江市/",
+        "districtList": []
+      },
+      {
+        "cityName": "南充市",
+        "cityFullName": "四川省南充市/",
+        "districtList": []
+      },
+      {
+        "cityName": "攀枝花市",
+        "cityFullName": "四川省攀枝花市/",
+        "districtList": []
+      },
+      {
+        "cityName": "遂宁市",
+        "cityFullName": "四川省遂宁市/",
+        "districtList": []
+      },
+      {
+        "cityName": "雅安市",
+        "cityFullName": "四川省雅安市/",
+        "districtList": []
+      },
+      {
+        "cityName": "宜宾市",
+        "cityFullName": "四川省宜宾市/",
+        "districtList": []
+      },
+      {
+        "cityName": "资阳市",
+        "cityFullName": "四川省资阳市/",
+        "districtList": []
+      },
+      {
+        "cityName": "自贡市",
+        "cityFullName": "四川省自贡市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "台湾省"
+    "province": "台湾省",
+    "city": [
+      {
+        "cityName": "台北市",
+        "cityFullName": "台湾省台北市/",
+        "districtList": []
+      },
+      {
+        "cityName": "桃园县",
+        "cityFullName": "台湾省桃园县/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "天津"
+    "province": "天津",
+    "city": [
+      {
+        "cityName": "天津市",
+        "cityFullName": "天津市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "西藏自治区"
+    "province": "西藏自治区",
+    "city": [
+      {
+        "cityName": "昌都市",
+        "cityFullName": "西藏自治区昌都市/",
+        "districtList": []
+      },
+      {
+        "cityName": "拉萨市",
+        "cityFullName": "西藏自治区拉萨市/",
+        "districtList": []
+      },
+      {
+        "cityName": "林芝地区",
+        "cityFullName": "西藏自治区林芝地区/",
+        "districtList": []
+      },
+      {
+        "cityName": "那曲地区",
+        "cityFullName": "西藏自治区那曲地区/",
+        "districtList": []
+      },
+      {
+        "cityName": "日喀则市",
+        "cityFullName": "西藏自治区日喀则市/",
+        "districtList": []
+      },
+      {
+        "cityName": "山南地区",
+        "cityFullName": "西藏自治区山南地区/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "香港特别行政区"
+    "province": "香港特别行政区",
+    "city": [
+      {
+        "cityName": "香港岛",
+        "cityFullName": "香港特别行政区香港岛/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "新疆维吾尔自治区"
+    "province": "新疆维吾尔自治区",
+    "city": [
+      {
+        "cityName": "阿克苏地区",
+        "cityFullName": "新疆维吾尔自治区阿克苏地区/",
+        "districtList": []
+      },
+      {
+        "cityName": "巴音郭楞蒙古自治州",
+        "cityFullName": "新疆维吾尔自治区巴音郭楞蒙古自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "博尔塔拉蒙古自治州",
+        "cityFullName": "新疆维吾尔自治区博尔塔拉蒙古自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "昌吉回族自治州",
+        "cityFullName": "新疆维吾尔自治区昌吉回族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "哈密地区",
+        "cityFullName": "新疆维吾尔自治区哈密地区/",
+        "districtList": []
+      },
+      {
+        "cityName": "和田地区",
+        "cityFullName": "新疆维吾尔自治区和田地区/",
+        "districtList": []
+      },
+      {
+        "cityName": "喀什地区",
+        "cityFullName": "新疆维吾尔自治区喀什地区/",
+        "districtList": []
+      },
+      {
+        "cityName": "克拉玛依市",
+        "cityFullName": "新疆维吾尔自治区克拉玛依市/",
+        "districtList": []
+      },
+      {
+        "cityName": "克孜勒苏柯尔克孜自治州",
+        "cityFullName": "新疆维吾尔自治区克孜勒苏柯尔克孜自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "吐鲁番地区",
+        "cityFullName": "新疆维吾尔自治区吐鲁番地区/",
+        "districtList": []
+      },
+      {
+        "cityName": "乌鲁木齐市",
+        "cityFullName": "新疆维吾尔自治区乌鲁木齐市/",
+        "districtList": []
+      },
+      {
+        "cityName": "伊犁哈萨克自治州",
+        "cityFullName": "新疆维吾尔自治区伊犁哈萨克自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "自治区直辖县级行政区划",
+        "cityFullName": "新疆维吾尔自治区自治区直辖县级行政区划/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "云南省"
+    "province": "云南省",
+    "city": [
+      {
+        "cityName": "保山市",
+        "cityFullName": "云南省保山市/",
+        "districtList": []
+      },
+      {
+        "cityName": "楚雄彝族自治州",
+        "cityFullName": "云南省楚雄彝族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "大理白族自治州",
+        "cityFullName": "云南省大理白族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "德宏傣族景颇族自治州",
+        "cityFullName": "云南省德宏傣族景颇族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "迪庆藏族自治州",
+        "cityFullName": "云南省迪庆藏族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "红河哈尼族彝族自治州",
+        "cityFullName": "云南省红河哈尼族彝族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "昆明市",
+        "cityFullName": "云南省昆明市/",
+        "districtList": []
+      },
+      {
+        "cityName": "丽江市",
+        "cityFullName": "云南省丽江市/",
+        "districtList": []
+      },
+      {
+        "cityName": "临沧市",
+        "cityFullName": "云南省临沧市/",
+        "districtList": []
+      },
+      {
+        "cityName": "怒江傈僳族自治州",
+        "cityFullName": "云南省怒江傈僳族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "普洱市",
+        "cityFullName": "云南省普洱市/",
+        "districtList": []
+      },
+      {
+        "cityName": "曲靖市",
+        "cityFullName": "云南省曲靖市/",
+        "districtList": []
+      },
+      {
+        "cityName": "文山壮族苗族自治州",
+        "cityFullName": "云南省文山壮族苗族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "西双版纳傣族自治州",
+        "cityFullName": "云南省西双版纳傣族自治州/",
+        "districtList": []
+      },
+      {
+        "cityName": "玉溪市",
+        "cityFullName": "云南省玉溪市/",
+        "districtList": []
+      },
+      {
+        "cityName": "昭通市",
+        "cityFullName": "云南省昭通市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "浙江省"
+    "province": "浙江省",
+    "city": [
+      {
+        "cityName": "杭州市",
+        "cityFullName": "浙江省杭州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "湖州市",
+        "cityFullName": "浙江省湖州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "嘉兴市",
+        "cityFullName": "浙江省嘉兴市/",
+        "districtList": []
+      },
+      {
+        "cityName": "金华市",
+        "cityFullName": "浙江省金华市/",
+        "districtList": []
+      },
+      {
+        "cityName": "丽水市",
+        "cityFullName": "浙江省丽水市/",
+        "districtList": []
+      },
+      {
+        "cityName": "宁波市",
+        "cityFullName": "浙江省宁波市/",
+        "districtList": []
+      },
+      {
+        "cityName": "衢州市",
+        "cityFullName": "浙江省衢州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "绍兴市",
+        "cityFullName": "浙江省绍兴市/",
+        "districtList": []
+      },
+      {
+        "cityName": "台州市",
+        "cityFullName": "浙江省台州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "温州市",
+        "cityFullName": "浙江省温州市/",
+        "districtList": []
+      },
+      {
+        "cityName": "舟山市",
+        "cityFullName": "浙江省舟山市/",
+        "districtList": []
+      }
+    ]
   },
   {
-    "省份": "重庆"
+    "province": "重庆",
+    "city": [
+      {
+        "cityName": "重庆市",
+        "cityFullName": "重庆市/",
+        "districtList": []
+      }
+    ]
   }
 ]
