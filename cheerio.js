@@ -48,12 +48,42 @@ const getHtml = async (url) => {
           html = res.text;
           const $ = cheerio.load(html, { decodeEntities: false })
           const $district = '#main .Districtlist ul li a'
+          // 获取到区
           $($district).map((disItem, val) => {
             const text = $(val).text()
             const href = $(val).attr('href').split('/city/')[1]
             provinceList[index].city[i].districtList.push({
               districtName: text,
-              districtFullName: href
+              districtFullName: href,
+            })
+          })
+
+          // 获取到年级内容
+          provinceList[index].city[i].districtList.forEach(async (district, c) => {
+            const _url2 = encodeURI(`${url}${district.districtFullName}`)
+            await agent.get(_url2).charset('gbk').end(async (err, res) => {
+              html = res.text;
+              const $ = cheerio.load(html, { decodeEntities: false })
+              const $book = '#main .divlist .ih3'
+
+              const EnglishList = []
+
+              await $($book).map((bookItem, book) => {
+                const text = $(book).text()
+                const title = $(book).attr('title')
+                if (text.includes('英语')) {
+                  EnglishList.push({
+                    text,
+                    title,
+                  })
+                }
+              })
+
+              provinceList[index].city[i].districtList[c].起始年级 = EnglishList[0].text.split('英语')[0]
+              provinceList[index].city[i].districtList[c].版本 = EnglishList[0].title.split('义务教育')[0]
+              provinceList[index].city[i].districtList[c].标题 = EnglishList[0].title
+              provinceList[index].city[i].districtList[c].简称 = EnglishList[0].text
+              provinceList[index].city[i].districtList[c].备注 = EnglishList[0].text.match(/\((.+?)\)/g)[0]
             })
           })
         })
