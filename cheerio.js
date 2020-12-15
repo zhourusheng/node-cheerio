@@ -50,9 +50,10 @@ const getHtml = async (url) => {
           const $district = '#main .Districtlist ul li a'
           $($district).map((disItem, val) => {
             const text = $(val).text()
-            console.log(_url, text)
+            const href = $(val).attr('href').split('/city/')[1]
             provinceList[index].city[i].districtList.push({
-              districtName: text
+              districtName: text,
+              districtFullName: href
             })
           })
         })
