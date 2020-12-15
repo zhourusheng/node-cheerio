@@ -19,7 +19,8 @@ function getHtml(url) {
     $($provinceList).map((i, val) => {
       const text = $(val).text()
       provinceList.push({
-        省份: text
+        省份: text,
+        城市: []
       })
     })
 

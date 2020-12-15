@@ -8,7 +8,7 @@ const puppeteer = require('puppeteer');
     // 是否自动打开调试工具(boolean)，若此值为true，headless自动置为fasle
     devtools: false,
     // 设置超时时间(number)，若此值为0，则禁用超时
-    timeout: 20000000000,
+    timeout: 20000,
   });
 
   const page = await browser.newPage();
@@ -34,12 +34,12 @@ const puppeteer = require('puppeteer');
       let gradeList = await page.$$eval(query, eles => eles.map(ele => {
         return {
           title: ele.title,
-          href: ele.href,
+          // href: ele.href,
           text: ele.text
         }
       }));
 
-      gradeList = gradeList.filter(b => b.text.includes('英语'))
+      gradeList = gradeList.filter(b => b.text.includes('英语'))[0]
 
       if (i !== undefined) {
         list[index].district[i].gradeList = gradeList
@@ -65,8 +65,9 @@ const puppeteer = require('puppeteer');
   }));
 
   // 遍历每个城市
-  for (let index = 0; index < 5; index++) {
+  for (let index = 42; index < 63; index++) {
     const href = list[index].href;
+    // const city = list[index].city;
 
     await page.goto(href, { waitUntil: 'networkidle0' });
 
@@ -80,7 +81,7 @@ const puppeteer = require('puppeteer');
       const Districtlist = await page.$$eval('#main > .Districtlist > ul > li > a', eles => eles.map(ele => {
         return {
           district: ele.innerHTML,
-          href: ele.href
+          // href: ele.href
         }
       }));
 
@@ -99,7 +100,7 @@ const puppeteer = require('puppeteer');
   }
 
   // 将笔记本电脑信息写入文件
-  writerStream = fs.createWriteStream('city.json');
+  writerStream = fs.createWriteStream('广东.json');
   writerStream.write(JSON.stringify(list, undefined, 2), 'UTF8');
   writerStream.end();
 
