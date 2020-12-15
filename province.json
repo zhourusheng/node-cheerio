@@ -5,82 +5,404 @@
       {
         "cityName": "安庆市",
         "cityFullName": "安徽省安庆市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "枞阳县"
+          },
+          {
+            "districtName": "大观区"
+          },
+          {
+            "districtName": "怀宁县"
+          },
+          {
+            "districtName": "潜山县"
+          },
+          {
+            "districtName": "宿松县"
+          },
+          {
+            "districtName": "太湖县"
+          },
+          {
+            "districtName": "桐城市"
+          },
+          {
+            "districtName": "望江县"
+          },
+          {
+            "districtName": "宜秀区"
+          },
+          {
+            "districtName": "迎江区"
+          },
+          {
+            "districtName": "岳西县"
+          }
+        ]
       },
       {
         "cityName": "蚌埠市",
         "cityFullName": "安徽省蚌埠市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "蚌山区"
+          },
+          {
+            "districtName": "固镇县"
+          },
+          {
+            "districtName": "怀远县"
+          },
+          {
+            "districtName": "淮上区"
+          },
+          {
+            "districtName": "龙子湖区"
+          },
+          {
+            "districtName": "五河县"
+          },
+          {
+            "districtName": "禹会区"
+          }
+        ]
       },
       {
         "cityName": "亳州市",
         "cityFullName": "安徽省亳州市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "利辛县"
+          },
+          {
+            "districtName": "蒙城县"
+          },
+          {
+            "districtName": "谯城区"
+          },
+          {
+            "districtName": "涡阳县"
+          }
+        ]
       },
       {
         "cityName": "池州市",
         "cityFullName": "安徽省池州市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "东至县"
+          },
+          {
+            "districtName": "贵池区"
+          },
+          {
+            "districtName": "青阳县"
+          },
+          {
+            "districtName": "石台县"
+          }
+        ]
       },
       {
         "cityName": "滁州市",
         "cityFullName": "安徽省滁州市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "定远县"
+          },
+          {
+            "districtName": "凤阳县"
+          },
+          {
+            "districtName": "来安县"
+          },
+          {
+            "districtName": "琅琊区"
+          },
+          {
+            "districtName": "明光市"
+          },
+          {
+            "districtName": "南谯区"
+          },
+          {
+            "districtName": "全椒县"
+          },
+          {
+            "districtName": "天长市"
+          }
+        ]
       },
       {
         "cityName": "阜阳市",
         "cityFullName": "安徽省阜阳市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "阜南县"
+          },
+          {
+            "districtName": "界首市"
+          },
+          {
+            "districtName": "临泉县"
+          },
+          {
+            "districtName": "太和县"
+          },
+          {
+            "districtName": "颍东区"
+          },
+          {
+            "districtName": "颍泉区"
+          },
+          {
+            "districtName": "颍上县"
+          },
+          {
+            "districtName": "颍州区"
+          }
+        ]
       },
       {
         "cityName": "合肥市",
         "cityFullName": "安徽省合肥市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "包河区"
+          },
+          {
+            "districtName": "长丰县"
+          },
+          {
+            "districtName": "巢湖市"
+          },
+          {
+            "districtName": "肥东县"
+          },
+          {
+            "districtName": "肥西县"
+          },
+          {
+            "districtName": "庐江县"
+          },
+          {
+            "districtName": "庐阳区"
+          },
+          {
+            "districtName": "蜀山区"
+          },
+          {
+            "districtName": "瑶海区"
+          }
+        ]
       },
       {
         "cityName": "淮北市",
         "cityFullName": "安徽省淮北市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "杜集区"
+          },
+          {
+            "districtName": "烈山区"
+          },
+          {
+            "districtName": "濉溪县"
+          },
+          {
+            "districtName": "相山区"
+          }
+        ]
       },
       {
         "cityName": "淮南市",
         "cityFullName": "安徽省淮南市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "八公山区"
+          },
+          {
+            "districtName": "大通区"
+          },
+          {
+            "districtName": "凤台县"
+          },
+          {
+            "districtName": "潘集区"
+          },
+          {
+            "districtName": "田家庵区"
+          },
+          {
+            "districtName": "谢家集区"
+          }
+        ]
       },
       {
         "cityName": "黄山市",
         "cityFullName": "安徽省黄山市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "黄山区"
+          },
+          {
+            "districtName": "徽州区"
+          },
+          {
+            "districtName": "祁门县"
+          },
+          {
+            "districtName": "屯溪区"
+          },
+          {
+            "districtName": "歙县"
+          },
+          {
+            "districtName": "休宁县"
+          }
+        ]
       },
       {
         "cityName": "六安市",
         "cityFullName": "安徽省六安市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "霍邱县"
+          },
+          {
+            "districtName": "霍山县"
+          },
+          {
+            "districtName": "金安区"
+          },
+          {
+            "districtName": "金寨县"
+          },
+          {
+            "districtName": "寿县"
+          },
+          {
+            "districtName": "舒城县"
+          },
+          {
+            "districtName": "裕安区"
+          }
+        ]
       },
       {
         "cityName": "马鞍山市",
         "cityFullName": "安徽省马鞍山市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "博望区"
+          },
+          {
+            "districtName": "当涂县"
+          },
+          {
+            "districtName": "含山县"
+          },
+          {
+            "districtName": "和县"
+          },
+          {
+            "districtName": "花山区"
+          },
+          {
+            "districtName": "雨山区"
+          }
+        ]
       },
       {
         "cityName": "宿州市",
         "cityFullName": "安徽省宿州市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "砀山县"
+          },
+          {
+            "districtName": "灵璧县"
+          },
+          {
+            "districtName": "泗县"
+          },
+          {
+            "districtName": "萧县"
+          },
+          {
+            "districtName": "埇桥区"
+          }
+        ]
       },
       {
         "cityName": "铜陵市",
         "cityFullName": "安徽省铜陵市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "郊区"
+          },
+          {
+            "districtName": "铜官山区"
+          },
+          {
+            "districtName": "铜陵县"
+          }
+        ]
       },
       {
         "cityName": "芜湖市",
         "cityFullName": "安徽省芜湖市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "繁昌县"
+          },
+          {
+            "districtName": "镜湖区"
+          },
+          {
+            "districtName": "鸠江区"
+          },
+          {
+            "districtName": "南陵县"
+          },
+          {
+            "districtName": "无为县"
+          },
+          {
+            "districtName": "芜湖县"
+          },
+          {
+            "districtName": "弋江区"
+          }
+        ]
       },
       {
         "cityName": "宣城市",
         "cityFullName": "安徽省宣城市/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "广德县"
+          },
+          {
+            "districtName": "绩溪县"
+          },
+          {
+            "districtName": "泾县"
+          },
+          {
+            "districtName": "旌德县"
+          },
+          {
+            "districtName": "郎溪县"
+          },
+          {
+            "districtName": "宁国市"
+          },
+          {
+            "districtName": "宣州区"
+          }
+        ]
       }
     ]
   },
@@ -90,12 +412,20 @@
       {
         "cityName": "澳门半岛",
         "cityFullName": "澳门特别行政区澳门半岛/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "花地玛堂区"
+          }
+        ]
       },
       {
         "cityName": "路环岛",
         "cityFullName": "澳门特别行政区路环岛/",
-        "districtList": []
+        "districtList": [
+          {
+            "districtName": "圣方济各堂区"
+          }
+        ]
       }
     ]
   },
