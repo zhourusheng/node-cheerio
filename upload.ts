@@ -13,17 +13,24 @@ const MiddleId = 5
 const EnglishId = 52372
 
 ;(async () => {
-  const browser = await puppeteer.launch({
-    // 是否运行浏览器无头模式(boolean)
-    headless: false,
-    args: ['--start-maximized'],
-    // 是否自动打开调试工具(boolean)，若此值为true，headless自动置为fasle
-    devtools: false,
-    // 设置超时时间(number)，若此值为0，则禁用超时
-    timeout: 20000
-  })
+  const browser = await puppeteer
+    .launch({
+      // 是否运行浏览器无头模式(boolean)
+      headless: false,
+      args: ['--start-maximized', '--no-sandbox', '--disable-setuid-sandbox'],
+      // 是否自动打开调试工具(boolean)，若此值为true，headless自动置为fasle
+      devtools: false,
+      // 设置超时时间(number)，若此值为0，则禁用超时
+      timeout: 20000
+    })
+    .catch(() => browser.close)
 
   const page = await browser.newPage()
+
+  /**
+   * 设置请求拦截
+   */
+  // await page.setRequestInterception(true)
 
   // 跳转到登录
   // await page.goto(signInUrl)
@@ -127,10 +134,6 @@ const EnglishId = 52372
     item => item['册'] === grade && item['单元/章节'] === unit
   )
 
-  // CurrentList.forEach(async (Row, index) => {
-  //   await addRowItem(Row?.['视频名称'], index + 1)
-  // });
-
   const addRowItem = async (fileName: string, index: number) => {
     /**
      * 难点就在于每次怎么选中当前的行
@@ -155,9 +158,35 @@ const EnglishId = 52372
     // 输入搜索
     await page.type('.select2-search__field', fileName)
 
-    // 根据关键词进行选择
+    await page.waitFor(500)
 
+    // 根据关键词进行选择
+    const list = await page.$$eval(
+      '.select2-results__options > .select2-results__option',
+      eles =>
+        eles.map((ele, index) => {
+          return {
+            text: ele.innerHTML,
+            index: index + 1
+          }
+        })
+    )
+    // 筛选
+    const selectedIndex = list
+      ?.filter(item => item.text.includes(grade))
+      .filter(item => item.text.includes(unit))
+      .filter(item => item.text.includes(Version))
+      .filter(item => item.text.includes(fileName))?.[0]?.index
+
+    if (selectedIndex) {
+      // 点击选中
+      await page.click(
+        `.select2-results__options .select2-results__option:nth-of-type(${selectedIndex})`
+      )
+    }
   }
 
-  addRowItem('share的用法', 1)
+  CurrentList.forEach(async (Row, index) => {
+    await addRowItem(Row?.['视频名称'], index + 1)
+  })
 })()
