@@ -12,12 +12,19 @@ const submitBtn = '.btn-primary'
 const MiddleId = 5
 const EnglishId = 52372
 
+async function asyncForEach(array, callback) {
+  for (let index = 0; index < array.length; index++) {
+    await callback(array[index], index, array)
+  }
+}
+
 ;(async () => {
   const browser = await puppeteer
     .launch({
       // 是否运行浏览器无头模式(boolean)
       headless: false,
       args: ['--start-maximized', '--no-sandbox', '--disable-setuid-sandbox'],
+      defaultViewport: null,
       // 是否自动打开调试工具(boolean)，若此值为true，headless自动置为fasle
       devtools: false,
       // 设置超时时间(number)，若此值为0，则禁用超时
@@ -134,26 +141,43 @@ const EnglishId = 52372
     item => item['册'] === grade && item['单元/章节'] === unit
   )
 
+  // for (let index = 0; index < CurrentList.length; index++) {
+  //   // 点击同步学 添加
+  //   await page.click('.add_fields:nth-of-type(1)')
+  // }
+
+  asyncForEach(CurrentList, async () => {
+    await page.click('.add_fields:nth-of-type(1)')
+  })
+
   const addRowItem = async (fileName: string, index: number) => {
+    console.log(fileName, index)
+    await page.waitFor(1000)
+
     /**
      * 难点就在于每次怎么选中当前的行
      */
-    // 点击同步学 添加
-    await page.click('.add_fields:nth-of-type(1)')
-
     // 第几行就是 .table-responsive 下面第 index 个 tr
     const CurrentRow = `.table-responsive .nested-fields:nth-of-type(${index})`
+
+    await page.waitFor(CurrentRow)
 
     const CurrentType = `${CurrentRow} .content_type`
     await page.waitFor(CurrentType)
     // 内容选择第三方
     await page.select(CurrentType, 'ApiContent')
 
+    await page.waitFor(500)
+
     // 填写附件名称
     await page.type(`${CurrentRow} .center:nth-of-type(2) .m-input`, fileName)
 
+    await page.waitFor(500)
+
     // 内容描述
     await page.click(`${CurrentRow} .td_c_id .select2-selection__rendered`)
+
+    await page.waitFor(500)
 
     // 输入搜索
     await page.type('.select2-search__field', fileName)
@@ -171,6 +195,7 @@ const EnglishId = 52372
           }
         })
     )
+    await page.waitFor(500)
     // 筛选
     const selectedIndex = list
       ?.filter(item => item.text.includes(grade))
@@ -186,7 +211,13 @@ const EnglishId = 52372
     }
   }
 
-  CurrentList.forEach(async (Row, index) => {
+  // CurrentList.forEach(async (Row, index) => {
+  //   await addRowItem(Row?.['视频名称'], index + 1)
+  // })
+
+  asyncForEach(CurrentList, async (Row, index) => {
     await addRowItem(Row?.['视频名称'], index + 1)
   })
+
+  // 点击确定按钮
 })()
