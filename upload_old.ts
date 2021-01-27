@@ -1,5 +1,16 @@
+const fs = require('fs')
 const puppeteer = require('puppeteer')
 const configJson = require('./excel/njyl-7.json')
+
+const url = 'https://kfb.xbxxhz.com/dashboard/xuekewang_exercises'
+const account = 'zhengyn@gongfudou.com'
+const signInUrl = 'https://kfb.xbxxhz.com/admins/sign_in'
+const admin_email = '#admin_email'
+const admin_password = '#admin_password'
+const submitBtn = '.btn-primary'
+
+const MiddleId = 5
+const EnglishId = 52372
 
 async function asyncForEach(array, callback) {
   for (let index = 0; index < array.length; index++) {
@@ -22,6 +33,61 @@ async function asyncForEach(array, callback) {
     .catch(() => browser.close)
 
   const page = await browser.newPage()
+
+  /**
+   * 设置请求拦截
+   */
+  // await page.setRequestInterception(true)
+
+  // 跳转到登录
+  // await page.goto(signInUrl)
+  // // 输入邮箱和密码, 点击登录
+  // await page.type(admin_email, account, { delay: 500 })
+  // await page.type(admin_password, account, { delay: 500 })
+  // await page.click(submitBtn)
+
+  // // 跳转
+  // await page.waitForNavigation()
+  // await page.goto(url)
+
+  // // 点击年级
+  // await page.click('#select2-stage_id-container')
+  // // 等待下拉框出现
+  // await page.waitFor('#select2-stage_id-results')
+  // // 选择初中
+  // await page.click('#select2-stage_id-results > :nth-child(3)')
+
+  // await page.waitFor(500)
+
+  // // 点击学科
+  // await page.click('#select2-subject_id-container')
+  // // 等待下拉框出现
+  // await page.waitFor('#select2-subject_id-results')
+  // // 选择英语
+  // await page.click('#select2-subject_id-results > :nth-child(4)')
+
+  // await page.waitFor(500)
+
+  // // 点击版本
+  // await page.click('#select2-version_id-container')
+  // // 等待下拉框出现
+  // await page.waitFor('#select2-version_id-results')
+  // // 选择外研版
+  // await page.click('#select2-version_id-results > :nth-child(4)')
+
+  // await page.waitFor(500)
+
+  // // 点击教材
+  // await page.click('#select2-textbook_id-container')
+  // // 等待下拉框出现
+  // await page.waitFor('#select2-textbook_id-results')
+  // // 选择外研版
+  // await page.click('#select2-textbook_id-results > :nth-child(5)')
+
+  // await page.waitFor(500)
+
+  // // 点击搜索
+  // await page.click(submitBtn)
 
   /**
    * 设置 cookie
@@ -74,6 +140,11 @@ async function asyncForEach(array, callback) {
   const CurrentList = configJson.Sheet1.filter(
     item => item['册'] === grade && item['单元/章节'] === unit
   )
+
+  // for (let index = 0; index < CurrentList.length; index++) {
+  //   // 点击同步学 添加
+  //   await page.click('.add_fields:nth-of-type(1)')
+  // }
 
   asyncForEach(CurrentList, async () => {
     await page.click('.add_fields:nth-of-type(1)')
@@ -140,12 +211,13 @@ async function asyncForEach(array, callback) {
     }
   }
 
+  // CurrentList.forEach(async (Row, index) => {
+  //   await addRowItem(Row?.['视频名称'], index + 1)
+  // })
+
   asyncForEach(CurrentList, async (Row, index) => {
     await addRowItem(Row?.['视频名称'], index + 1)
   })
 
   // 点击确定按钮
-  /**
-   * 考虑到涉及线上数据问题，需要核对后手动点击确定
-   */
 })()
