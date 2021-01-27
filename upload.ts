@@ -23,14 +23,14 @@ const grade = '七年级下'
  * unit 单元：
  * 要对应到 excel 表格中的 “单元/章节”
  */
-const unit = 'Unit 2'
+const unit = 'Unit 1'
 /**
  * pageUrl：
  * 需要修改的模块的页面的地址：
  * 就是搜索出来的，点击编辑之后跳转出去的地址，从浏览器复制过来
  */
 const pageUrl =
-  'https://kfb.xbxxhz.com/dashboard/xuekewang_exercises/53251/edit'
+  'https://kfb.xbxxhz.com/dashboard/xuekewang_exercises/53241/edit'
 
 /**
  * 设置 cookie
@@ -140,7 +140,7 @@ async function asyncForEach(array, callback) {
     // 内容描述
     await page.click(`${CurrentRow} .td_c_id .select2-selection__rendered`)
 
-    await page.waitFor('.select2-search__field')
+    await page.waitFor(500)
 
     // 输入搜索
     /**
@@ -151,7 +151,7 @@ async function asyncForEach(array, callback) {
     const searchKey = ''
     await page.type('.select2-search__field', fileName)
 
-    await page.waitFor('.select2-results__options')
+    await page.waitFor(500)
 
     // 根据关键词进行选择
     const list = await page.$$eval(
