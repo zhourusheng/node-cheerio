@@ -1,5 +1,83 @@
+/***
+ * excel 转换的网站是：https://wejson.cn/excel2json/
+ * 把转换出来的复制粘贴到 excel 文件下 data.json 文件中
+ * 执行的命令是 npm run start
+ */
+
+/**
+ * xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ * 以下要修改
+ */
+
+/**
+ * Version 版本
+ * 主要是在 内容描述中下拉框 搜索中匹配用
+ */
+const Version = '牛津译林'
+/**
+ * grade 年级：
+ * 要对应到 excel 表格中的 “册”
+ */
+const grade = '七年级下'
+/**
+ * unit 单元：
+ * 要对应到 excel 表格中的 “单元/章节”
+ */
+const unit = 'Unit 2'
+/**
+ * pageUrl：
+ * 需要修改的模块的页面的地址：
+ * 就是搜索出来的，点击编辑之后跳转出去的地址，从浏览器复制过来
+ */
+const pageUrl =
+  'https://kfb.xbxxhz.com/dashboard/xuekewang_exercises/53251/edit'
+
+/**
+ * 设置 cookie
+ * 如果页面打开之后跳转到登录页面的话，就说明cookie过期了
+ */
+const cookies = [
+  {
+    name: '_leviathan_session',
+    value:
+      'NEtUhDGlDEnfVaNG28p9hqw0RXr8jck%2BZzelf%2BBKfPj80EsanHBVVUFj1TXoFQbN7nN%2FeeHPohoDz6pKcL8zbJp0ZStJ1skYqfoqxRYpM9mA32Aw3V0uefaoacI%2Fvx1BDUGxBSxHgGpYIQJIgoZWbeqby3KfGALSpycLLITPr93KepH9L9O%2FAUzNVJK5%2FRpGDhdS12GBZYzElfYijq6%2B7WPuZZsiU7rIneHQi4rWVEYcQICq36Ps%2FjFXO3W5FUeYVr%2BQfCIFq6caxvXophqTgd%2BCD29Uymza1UQa3vJAmqA1CFPdYT8gIizY0p4GLvkrOSdZClyIlJuQ8fJaT0oEFQLE4sJSaK36c9kt1pNbi67NfyEMR6myIPZRyID1sDevZ8zxesZXKCDDTGoBMM1txvbcAq%2BPWEN8%2FveXUz8WklrAapm66mDZvtcHf2ypn076qra%2BcXUv2wN%2FLw8KyIYGZYT3WNWMzVrgIR8VKJdFj5ye2QOmI914guMfvP%2B5DQrCCko%3D--VCr07JiIKM1OjsC2--X0Tm8wkzRJb%2BPco%2FbTV0xA%3D%3D',
+    domain: 'kfb.xbxxhz.com',
+    path: '/'
+  },
+  {
+    name: 'ahoy_visit',
+    value: '592c9013-19d1-4775-885f-da85d792661e',
+    domain: 'kfb.xbxxhz.com',
+    path: '/'
+  },
+  {
+    name: 'ahoy_visitor',
+    value: 'dfdf1dc7-a7bd-4df9-9d91-bf794355400d',
+    domain: 'kfb.xbxxhz.com',
+    path: '/'
+  },
+  {
+    name: 'Hm_lvt_079fac161efc4b2a6f31e80064f14e82',
+    value: '1607499835',
+    domain: 'kfb.xbxxhz.com',
+    path: '/'
+  },
+  {
+    name: 'Hm_lvt_3d8e7fc0de8a2a75f2ca3bfe128e6391',
+    value: '1607499835',
+    domain: 'kfb.xbxxhz.com',
+    path: '/'
+  }
+]
+
+/**
+ * 分割线以上部分可以修改
+ * xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ * 以下部分代码不需要修改
+ */
+
 const puppeteer = require('puppeteer')
-const configJson = require('./excel/njyl-7.json')
+const configJson = require('./excel/data.json')
 
 async function asyncForEach(array, callback) {
   for (let index = 0; index < array.length; index++) {
@@ -23,53 +101,9 @@ async function asyncForEach(array, callback) {
 
   const page = await browser.newPage()
 
-  /**
-   * 设置 cookie
-   */
-  const cookies = [
-    {
-      name: '_leviathan_session',
-      value:
-        'NEtUhDGlDEnfVaNG28p9hqw0RXr8jck%2BZzelf%2BBKfPj80EsanHBVVUFj1TXoFQbN7nN%2FeeHPohoDz6pKcL8zbJp0ZStJ1skYqfoqxRYpM9mA32Aw3V0uefaoacI%2Fvx1BDUGxBSxHgGpYIQJIgoZWbeqby3KfGALSpycLLITPr93KepH9L9O%2FAUzNVJK5%2FRpGDhdS12GBZYzElfYijq6%2B7WPuZZsiU7rIneHQi4rWVEYcQICq36Ps%2FjFXO3W5FUeYVr%2BQfCIFq6caxvXophqTgd%2BCD29Uymza1UQa3vJAmqA1CFPdYT8gIizY0p4GLvkrOSdZClyIlJuQ8fJaT0oEFQLE4sJSaK36c9kt1pNbi67NfyEMR6myIPZRyID1sDevZ8zxesZXKCDDTGoBMM1txvbcAq%2BPWEN8%2FveXUz8WklrAapm66mDZvtcHf2ypn076qra%2BcXUv2wN%2FLw8KyIYGZYT3WNWMzVrgIR8VKJdFj5ye2QOmI914guMfvP%2B5DQrCCko%3D--VCr07JiIKM1OjsC2--X0Tm8wkzRJb%2BPco%2FbTV0xA%3D%3D',
-      domain: 'kfb.xbxxhz.com',
-      path: '/'
-    },
-    {
-      name: 'ahoy_visit',
-      value: '592c9013-19d1-4775-885f-da85d792661e',
-      domain: 'kfb.xbxxhz.com',
-      path: '/'
-    },
-    {
-      name: 'ahoy_visitor',
-      value: 'dfdf1dc7-a7bd-4df9-9d91-bf794355400d',
-      domain: 'kfb.xbxxhz.com',
-      path: '/'
-    },
-    {
-      name: 'Hm_lvt_079fac161efc4b2a6f31e80064f14e82',
-      value: '1607499835',
-      domain: 'kfb.xbxxhz.com',
-      path: '/'
-    },
-    {
-      name: 'Hm_lvt_3d8e7fc0de8a2a75f2ca3bfe128e6391',
-      value: '1607499835',
-      domain: 'kfb.xbxxhz.com',
-      path: '/'
-    }
-  ]
-
   await page.setCookie(...cookies)
 
-  // 牛津译林七下
-  const module1Url =
-    'https://kfb.xbxxhz.com/dashboard/xuekewang_exercises/53245/edit'
-  const Version = '牛津译林'
-  const grade = '七年级下'
-  const unit = 'Unit 1'
-
-  await page.goto(module1Url)
+  await page.goto(pageUrl)
 
   const CurrentList = configJson.Sheet1.filter(
     item => item['册'] === grade && item['单元/章节'] === unit
