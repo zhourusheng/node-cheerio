@@ -16,6 +16,7 @@ const EnglishId = 52372
   const browser = await puppeteer.launch({
     // 是否运行浏览器无头模式(boolean)
     headless: false,
+    args: ['--start-maximized'],
     // 是否自动打开调试工具(boolean)，若此值为true，headless自动置为fasle
     devtools: false,
     // 设置超时时间(number)，若此值为0，则禁用超时
@@ -116,38 +117,47 @@ const EnglishId = 52372
   // 牛津译林七下
   const module1Url =
     'https://kfb.xbxxhz.com/dashboard/xuekewang_exercises/53245/edit'
-  await page.goto(module1Url)
-
-  /***
-   * 内容描述搜索接口
-   * https://kfb.xbxxhz.com/dashboard/xuekewang_exercises/videos?q=try%E7%9A%84%E7%94%A8%E6%B3%95
-   */
-
+  const Version = '牛津译林'
   const grade = '七年级下'
   const unit = 'Unit 1'
+
+  await page.goto(module1Url)
 
   const CurrentList = configJson.Sheet1.filter(
     item => item['册'] === grade && item['单元/章节'] === unit
   )
 
   // CurrentList.forEach(async (Row, index) => {
-  //   await addRowItem(Row)
+  //   await addRowItem(Row?.['视频名称'], index + 1)
   // });
 
-  const addRowItem = async (fileName: string) => {
+  const addRowItem = async (fileName: string, index: number) => {
     /**
      * 难点就在于每次怎么选中当前的行
      */
     // 点击同步学 添加
     await page.click('.add_fields:nth-of-type(1)')
 
-    await page.waitFor('.content_type')
+    // 第几行就是 .table-responsive 下面第 index 个 tr
+    const CurrentRow = `.table-responsive .nested-fields:nth-of-type(${index})`
+
+    const CurrentType = `${CurrentRow} .content_type`
+    await page.waitFor(CurrentType)
     // 内容选择第三方
-    await page.select('.content_type', 'ApiContent')
+    await page.select(CurrentType, 'ApiContent')
 
     // 填写附件名称
-    await page.type('.m-input', fileName, { delay: 500 })
+    await page.type(`${CurrentRow} .center:nth-of-type(2) .m-input`, fileName)
+
+    // 内容描述
+    await page.click(`${CurrentRow} .td_c_id .select2-selection__rendered`)
+
+    // 输入搜索
+    await page.type('.select2-search__field', fileName)
+
+    // 根据关键词进行选择
+
   }
 
-  addRowItem('share的用法')
+  addRowItem('share的用法', 1)
 })()
