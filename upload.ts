@@ -140,12 +140,12 @@ async function asyncForEach(array, callback) {
     // 内容描述
     await page.click(`${CurrentRow} .td_c_id .select2-selection__rendered`)
 
-    await page.waitFor(500)
+    await page.waitFor('.select2-search__field')
 
     // 输入搜索
     await page.type('.select2-search__field', fileName)
 
-    await page.waitFor(500)
+    await page.waitFor('.select2-results__options')
 
     // 根据关键词进行选择
     const list = await page.$$eval(
