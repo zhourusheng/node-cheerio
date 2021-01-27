@@ -143,6 +143,12 @@ async function asyncForEach(array, callback) {
     await page.waitFor('.select2-search__field')
 
     // 输入搜索
+    /**
+     * TODO: 优化
+     * 如果是英文开头，只用搜英文第一个单词即可
+     */
+    const RegExp = /[A-Za-z]+/
+    const searchKey = ''
     await page.type('.select2-search__field', fileName)
 
     await page.waitFor('.select2-results__options')
