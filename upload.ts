@@ -5,7 +5,7 @@
  */
 
 /**
- * 当前版本：1.0.1
+ * 当前版本：1.0.2
  * xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  * 以下要修改
  */
@@ -143,15 +143,17 @@ async function asyncForEach(array, callback) {
       await page.waitFor(500)
 
       // 输入搜索
+      let searchKey = fileName
       /**
-       * TODO: 优化
        * 如果是英文开头，只用搜英文第一个单词即可
        */
       const RegExp = /[A-Za-z]+/
-      const searchKey = ''
-      await page.type('.select2-search__field', fileName)
+      if (searchKey.search(RegExp) >= 0 && searchKey.includes(',')) {
+        searchKey = searchKey.split(',')[0]
+      }
+      await page.type('.select2-search__field', searchKey)
 
-      await page.waitFor(500)
+      await page.waitFor(1500)
 
       // 根据关键词进行选择
       const list = await page.$$eval(
@@ -164,13 +166,24 @@ async function asyncForEach(array, callback) {
             }
           })
       )
-      await page.waitFor(500)
+      await page.waitFor(1500)
       // 筛选
       const selectedIndex = list
         ?.filter(item => item.text.includes(grade))
         .filter(item => item.text.includes(unit))
         .filter(item => item.text.includes(Version))
         .filter(item => item.text.includes(fileName))?.[0]?.index
+
+      console.log(
+        '附件名称==========',
+        fileName,
+        '所在行数==========',
+        index,
+        '搜索结果=======',
+        list,
+        '选中的行=======',
+        selectedIndex
+      )
 
       if (selectedIndex) {
         // 点击选中
