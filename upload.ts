@@ -5,7 +5,8 @@
  */
 
 /**
- * 当前版本：1.0.2
+ * 当前版本：1.0.3
+ * 说明：将 Version 优先 filter
  * xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  * 以下要修改
  */
@@ -169,9 +170,9 @@ async function asyncForEach(array, callback) {
       await page.waitFor(1500)
       // 筛选
       const selectedIndex = list
-        ?.filter(item => item.text.includes(grade))
+        ?.filter(item => item.text.includes(Version))
+        .filter(item => item.text.includes(grade))
         .filter(item => item.text.includes(unit))
-        .filter(item => item.text.includes(Version))
         .filter(item => item.text.includes(fileName))?.[0]?.index
 
       console.log(
