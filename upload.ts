@@ -5,8 +5,8 @@
  */
 
 /**
- * 当前版本：1.0.4
- * 说明：排除所有空格对搜索的干扰
+ * 当前版本：1.0.5
+ * 说明：await forEach
  * xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  * 以下要修改
  */
@@ -15,24 +15,26 @@
  * Version 版本
  * 主要是在 内容描述中下拉框 搜索中匹配用
  */
-const Version = '牛津译林'
+const Version = '仁爱'
 /**
  * grade 年级：
  * 要对应到 excel 表格中的 “册”
  */
-const grade = '八年级下'
+const grade = '七年级下'
 /**
  * unit 单元：
  * 要对应到 excel 表格中的 “单元/章节”
  */
-const unit = 'Unit1'
+const unit = 'Unit7'
+
+// 等下我提交代码
 /**
  * pageUrl：
  * 需要修改的模块的页面的地址：
  * 就是搜索出来的，点击编辑之后跳转出去的地址，从浏览器复制过来
  */
 const pageUrl =
-  'https://kfb.xbxxhz.com/dashboard/xuekewang_exercises/53269/edit'
+  'https://kfb.xbxxhz.com/dashboard/xuekewang_exercises/187587/edit'
 
 /**
  * 设置 cookie
@@ -113,8 +115,11 @@ async function asyncForEach(array, callback) {
       item['单元/章节']?.replace(/\s/g, '') === unit?.replace(/\s/g, '')
   )
 
-  asyncForEach(CurrentList, async () => {
+  console.log("共筛选到=======",CurrentList.length,"=======条数据")
+
+  await asyncForEach(CurrentList, async () => {
     await page.click('.add_fields:nth-of-type(1)')
+    await page.waitFor(500)
   })
 
   const addRowItem = async (fileName: string, index: number) => {
@@ -223,7 +228,7 @@ async function asyncForEach(array, callback) {
     }
   }
 
-  asyncForEach(CurrentList, async (Row, index) => {
+  await asyncForEach(CurrentList, async (Row, index) => {
     await addRowItem(Row?.['视频名称'], index + 1)
   })
 
