@@ -5,8 +5,8 @@
  */
 
 /**
- * 当前版本：1.0.3
- * 说明：将 Version 优先 filter
+ * 当前版本：1.0.4
+ * 说明：排除所有空格对搜索的干扰
  * xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  * 以下要修改
  */
@@ -151,12 +151,19 @@ async function asyncForEach(array, callback) {
        * 如果是英文开头，只用搜英文第一个单词即可
        */
       const RegExp = /[A-Za-z]+/
+      const reg = /[\u4e00-\u9fa5]/g
       if (searchKey.search(RegExp) >= 0 && searchKey.includes(',')) {
         searchKey = searchKey.split(',')[0]
+      } else if (
+        searchKey.search(RegExp) >= 0 &&
+        !searchKey.includes(',') &&
+        searchKey.includes(' ')
+      ) {
+        searchKey = searchKey.replace(reg, '')
       }
       await page.type('.select2-search__field', searchKey)
 
-      await page.waitFor(1500)
+      await page.waitFor(1000)
 
       // 根据关键词进行选择
       const list = await page.$$eval(
@@ -169,19 +176,29 @@ async function asyncForEach(array, callback) {
             }
           })
       )
-      await page.waitFor(1500)
+      await page.waitFor(1000)
       // 筛选
       const selectedIndex = list
-        ?.filter(item => item.text.includes(Version))
-        .filter(item => item.text.includes(grade))
-        .filter(item => item.text.includes(unit))
-        .filter(item => item.text.includes(fileName))?.[0]?.index
+        ?.filter(item =>
+          item.text.replace(/\s/g, '').includes(Version.replace(/\s/g, ''))
+        )
+        .filter(item =>
+          item.text.replace(/\s/g, '').includes(grade.replace(/\s/g, ''))
+        )
+        .filter(item =>
+          item.text.replace(/\s/g, '').includes(unit.replace(/\s/g, ''))
+        )
+        .filter(item =>
+          item.text.replace(/\s/g, '').includes(fileName.replace(/\s/g, ''))
+        )?.[0]?.index
 
       console.log(
         '附件名称==========',
         fileName,
         '所在行数==========',
         index,
+        '搜素关键词=======',
+        searchKey,
         '搜索结果=======',
         list,
         '选中的行=======',
