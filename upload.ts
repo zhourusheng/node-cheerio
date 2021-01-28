@@ -5,6 +5,7 @@
  */
 
 /**
+ * 当前版本：1.0.1
  * xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
  * 以下要修改
  */
@@ -23,14 +24,14 @@ const grade = '七年级下'
  * unit 单元：
  * 要对应到 excel 表格中的 “单元/章节”
  */
-const unit = 'Unit 1'
+const unit = 'Unit 2'
 /**
  * pageUrl：
  * 需要修改的模块的页面的地址：
  * 就是搜索出来的，点击编辑之后跳转出去的地址，从浏览器复制过来
  */
 const pageUrl =
-  'https://kfb.xbxxhz.com/dashboard/xuekewang_exercises/53241/edit'
+  'https://kfb.xbxxhz.com/dashboard/xuekewang_exercises/53242/edit'
 
 /**
  * 设置 cookie
@@ -114,68 +115,77 @@ async function asyncForEach(array, callback) {
   })
 
   const addRowItem = async (fileName: string, index: number) => {
-    console.log(fileName, index)
-    await page.waitFor(1000)
+    try {
+      await page.waitFor(1000)
+      /**
+       * 难点就在于每次怎么选中当前的行
+       */
+      // 第几行就是 .table-responsive 下面第 index 个 tr
+      const CurrentRow = `.table-responsive .nested-fields:nth-of-type(${index})`
 
-    /**
-     * 难点就在于每次怎么选中当前的行
-     */
-    // 第几行就是 .table-responsive 下面第 index 个 tr
-    const CurrentRow = `.table-responsive .nested-fields:nth-of-type(${index})`
+      await page.waitFor(CurrentRow)
 
-    await page.waitFor(CurrentRow)
+      const CurrentType = `${CurrentRow} .content_type`
+      await page.waitFor(CurrentType)
+      // 内容选择第三方
+      await page.select(CurrentType, 'ApiContent')
 
-    const CurrentType = `${CurrentRow} .content_type`
-    await page.waitFor(CurrentType)
-    // 内容选择第三方
-    await page.select(CurrentType, 'ApiContent')
+      await page.waitFor(500)
 
-    await page.waitFor(500)
+      // 填写附件名称
+      await page.type(`${CurrentRow} .center:nth-of-type(2) .m-input`, fileName)
 
-    // 填写附件名称
-    await page.type(`${CurrentRow} .center:nth-of-type(2) .m-input`, fileName)
+      await page.waitFor(500)
 
-    await page.waitFor(500)
+      // 内容描述
+      await page.click(`${CurrentRow} .td_c_id .select2-selection__rendered`)
 
-    // 内容描述
-    await page.click(`${CurrentRow} .td_c_id .select2-selection__rendered`)
+      await page.waitFor(500)
 
-    await page.waitFor(500)
+      // 输入搜索
+      /**
+       * TODO: 优化
+       * 如果是英文开头，只用搜英文第一个单词即可
+       */
+      const RegExp = /[A-Za-z]+/
+      const searchKey = ''
+      await page.type('.select2-search__field', fileName)
 
-    // 输入搜索
-    /**
-     * TODO: 优化
-     * 如果是英文开头，只用搜英文第一个单词即可
-     */
-    const RegExp = /[A-Za-z]+/
-    const searchKey = ''
-    await page.type('.select2-search__field', fileName)
+      await page.waitFor(500)
 
-    await page.waitFor(500)
+      // 根据关键词进行选择
+      const list = await page.$$eval(
+        '.select2-results__options > .select2-results__option',
+        eles =>
+          eles.map((ele, index) => {
+            return {
+              text: ele.innerHTML,
+              index: index + 1
+            }
+          })
+      )
+      await page.waitFor(500)
+      // 筛选
+      const selectedIndex = list
+        ?.filter(item => item.text.includes(grade))
+        .filter(item => item.text.includes(unit))
+        .filter(item => item.text.includes(Version))
+        .filter(item => item.text.includes(fileName))?.[0]?.index
 
-    // 根据关键词进行选择
-    const list = await page.$$eval(
-      '.select2-results__options > .select2-results__option',
-      eles =>
-        eles.map((ele, index) => {
-          return {
-            text: ele.innerHTML,
-            index: index + 1
-          }
-        })
-    )
-    await page.waitFor(500)
-    // 筛选
-    const selectedIndex = list
-      ?.filter(item => item.text.includes(grade))
-      .filter(item => item.text.includes(unit))
-      .filter(item => item.text.includes(Version))
-      .filter(item => item.text.includes(fileName))?.[0]?.index
-
-    if (selectedIndex) {
-      // 点击选中
-      await page.click(
-        `.select2-results__options .select2-results__option:nth-of-type(${selectedIndex})`
+      if (selectedIndex) {
+        // 点击选中
+        await page.click(
+          `.select2-results__options .select2-results__option:nth-of-type(${selectedIndex})`
+        )
+      }
+    } catch (error) {
+      console.log(
+        '附件名称==========',
+        fileName,
+        '所在行数==========',
+        index,
+        '报错信息：',
+        error
       )
     }
   }
