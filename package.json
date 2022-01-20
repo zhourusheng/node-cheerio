@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node upload.ts",
+    "start": "ts-node uploadFile.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
